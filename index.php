@@ -25,6 +25,12 @@ echo "— <a href='https://levi.pictures'>Blogs @ Times of Israel</a>";
 
 echo "<br>";
 echo "<br>";
+echo "Contact";
+echo "<br>";
+echo "<a href='mailto:info@levi.news'>info@levi.news</a>";
+
+echo "<br>";
+echo "<br>";
 echo "<br>";
 echo "<br>";
 
