@@ -20,6 +20,8 @@ echo "— <a href='http://linkedin.com/in/levimeirclancy/'>LinkedIn</a>";
 echo "<br>";
 echo "— <a href='https://levi.pictures'>Blogs @ Times of Israel</a>";
 
+echo "<br>";
+echo "<br>";
 
 echo "Get to know me";
 echo "<br>";
