@@ -6,19 +6,24 @@ echo "<!DOCTYPE html>";
 echo "<html>";
 echo "<head>";
 echo "<style>";
-	// css
+	echo "body { font-family: Courier New; } ";
+	echo ".header-spacing { display: block; height: 100px; } ";
+	echo ".footer-spacing { display: block; height: 100px; } ";
+	echo ".body-spacing { display: block; height: 50px; } ";
+	echo "#header-he { font-size: 300%; display: block; } ";
+	echo "#header-en { font-size: 300%; display: block; } ";
 	echo "</style>";
 echo "</head>";
 echo "<body>";
 
 echo "<div id='body-case'>";
 
-echo "<span class='header-padding'></span>";
+echo "<span class='header-spacing'></span>";
 
 echo "<span id='header-he'>לוי<br>מאיר<br>קלנסי</span>";
 echo "<span id='header-en'>Levi<br>Meir<br>Clancy</span>";
 
-echo "<span class='body-spacer'></span>";
+echo "<span class='body-spacing'></span>";
 
 echo "Professional links";
 echo "<br>";
@@ -38,7 +43,7 @@ echo "Education &rarr; <a href='https://conversationpieces.rsvp'>conversationpie
 echo "<br>";
 echo "Email &rarr; <a href='mailto:info@levi.news'>info@levi.news</a>";
 
-echo "<span class='footer-padding'></span>";
+echo "<span class='footer-spacing'></span>";
 
 echo "</div>";
 
