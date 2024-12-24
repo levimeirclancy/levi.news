@@ -10,9 +10,9 @@ echo "<style>";
 	echo ".body-wrapper { width: 90%; max-width: 600px; display: block; margin: 0 auto; } ";
 	echo ".header-spacing { display: block; height: 100px; } ";
 	echo ".footer-spacing { display: block; height: 100px; } ";
-	echo ".body-spacing { display: block; height: 50px; } ";
-	echo "#header-he { font-size: 300%; display: block; transform: rotate(15deg); } ";
-	echo "#header-en { font-size: 300%; display: block; transform: rotate(-15deg); } ";
+	echo ".body-wrapper-spacing { display: block; height: 50px; } ";
+	echo "#header-he { font-size: 300%; display: block; transform: rotate(5deg); } ";
+	echo "#header-en { font-size: 300%; display: block; transform: rotate(-5deg); } ";
 	echo "</style>";
 echo "</head>";
 echo "<body>";
@@ -24,7 +24,7 @@ echo "<span class='header-spacing'></span>";
 echo "<span id='header-he'>לוי<br>מאיר<br>קלנסי</span>";
 echo "<span id='header-en'>Levi<br>Meir<br>Clancy</span>";
 
-echo "<span class='body-spacing'></span>";
+echo "<span class='body-wrapper-spacing'></span>";
 
 echo "Professional links";
 echo "<br>";
