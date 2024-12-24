@@ -4,7 +4,7 @@ include_once("index-content.php");
 
 echo "<div id='body-case'>";
 
-echo "<span id='header-padding'></span>";
+  echo "<span id='header-padding'></span>";
 echo "<span id='header-he'>לוי<br>מאיר<br>קלנסי</span>";
 echo "<span id='header-en'>Levi<br>Meir<br>Clancy</span>";
 
