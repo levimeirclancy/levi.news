@@ -6,9 +6,9 @@ echo "<!DOCTYPE html>";
 echo "<html>";
 echo "<head>";
 echo "<style>";
-	echo "body { font-family: Courier New; background: #222; color: #f5f5f5; line-height: 1.5; } ";
+	echo "body { font-family: Courier New; background: #222; color: #f5f5f5; line-height: 1.5; margin: 0; padding: 0; } ";
 	echo "a { color: #e5e5e5; text-decoration-style: wavy; } ";
-	echo ".body-wrapper { width: 90%; max-width: 600px; display: block; margin: 0 auto; } ";
+	echo ".body-wrapper { width: 100%; max-width: 600px; display: block; margin: 0 auto; } ";
 	echo ".header-spacing { display: block; height: 100px; } ";
 	echo ".footer-spacing { display: block; height: 100px; } ";
 	echo ".body-wrapper-spacing { display: block; height: 50px; } ";
@@ -25,6 +25,7 @@ echo "<span class='header-spacing'></span>";
 echo "<span id='header-he'>לוי<br>מאיר<br>קלנסי</span>";
 echo "<span id='header-en'>Levi<br>Meir<br>Clancy</span>";
 
+echo "<span class='body-wrapper-spacing'></span>";
 echo "<span class='body-wrapper-spacing'></span>";
 
 echo "Professional links";
