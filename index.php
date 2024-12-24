@@ -7,7 +7,7 @@ echo "<html>";
 echo "<head>";
 echo "<style>";
 	echo "body { font-family: Courier New; background: #222; color: #f5f5f5; } ";
-	echo "a { color: #fff; text-decoration-style: wavy; } ";
+	echo "a { color: #e5e5e5; text-decoration-style: wavy; } ";
 	echo ".body-wrapper { width: 90%; max-width: 600px; display: block; margin: 0 auto; } ";
 	echo ".header-spacing { display: block; height: 100px; } ";
 	echo ".footer-spacing { display: block; height: 100px; } ";
