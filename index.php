@@ -7,7 +7,7 @@ echo "<html>";
 echo "<head>";
 echo "<style>";
 	echo "body { font-family: Courier New; } ";
-	echo ".body-wrapper { width: 90%; max-width: 600px; display: block; } ";
+	echo ".body-wrapper { width: 90%; max-width: 600px; display: block; margin: 0 auto; } ";
 	echo ".header-spacing { display: block; height: 100px; } ";
 	echo ".footer-spacing { display: block; height: 100px; } ";
 	echo ".body-spacing { display: block; height: 50px; } ";
