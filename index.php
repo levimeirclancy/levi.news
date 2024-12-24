@@ -18,7 +18,7 @@ echo "Professional links";
 echo "<br>";
 echo "— <a href='http://linkedin.com/in/levimeirclancy/'>LinkedIn</a>";
 echo "<br>";
-echo "— <a href='https://levi.pictures'>Blogs @ Times of Israel</a>";
+echo "— <a href='https://blogs.timesofisrael.com/author/levi-clancy/'>Blogs @ Times of Israel</a>";
 
 echo "<br>";
 echo "<br>";
