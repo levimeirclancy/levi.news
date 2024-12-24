@@ -2,17 +2,13 @@
 
 include_once("index-content.php");
 
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
+echo "<div id='body-case'>";
 
-echo "לוי מאיר קלנסי";
-echo "<br>";
-echo "Levi Meir Clancy";
+echo "<span id='header-padding'></span>";
+echo "<span id='header-he'>לוי<br>מאיר<br>קלנסי</span>";
+echo "<span id='header-en'>Levi<br>Meir<br>Clancy</span>";
 
-echo "<br>";
-echo "<br>";
+echo "<span id='body-spacer'></span>";
 
 echo "Professional links";
 echo "<br>";
@@ -33,10 +29,9 @@ echo "Education &rarr; <a href='https://conversationpieces.rsvp'>conversationpie
 echo "<br>";
 echo "Email &rarr; <a href='mailto:info@levi.news'>info@levi.news</a>";
 
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
+echo "</div>";
+
+echo "<span id='header-padding'></span>";
 
 
 
