@@ -32,7 +32,7 @@ echo "— <a href='http://linkedin.com/in/levimeirclancy/'>LinkedIn</a>";
 echo "<br>";
 echo "— <a href='https://blogs.timesofisrael.com/author/levi-clancy/'>Blogs @ Times of Israel</a>";
 
-echo "<span class='body-spacer'></span>";
+echo "<span class='body-wrapper-spacing'></span>";
 
 echo "Get to know me";
 echo "<br>";
