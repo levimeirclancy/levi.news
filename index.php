@@ -13,7 +13,7 @@ echo "<style>";
 	echo ".footer-spacing { display: block; height: 100px; } ";
 	echo ".body-wrapper-spacing { display: block; height: 50px; } ";
 	echo ".body-subheader { font-size: 120%; font-weight: 700; } ";
-	echo ".link-bubble { border: 2px solid #f5f5f5; background: rgba(255,255,255,0.15); padding: 8px 18px; margin: 10px; display: inline-block; text-align: center; } ";
+	echo ".link-bubble { border-radius: 25px; border: 2px solid #f5f5f5; background: rgba(255,255,255,0.15); padding: 8px 25px; margin: 10px 0; display: inline-block; text-align: center; } ";
 	echo "#header-he { font-size: 300%; display: block; transform: rotate(5deg); font-weight: 700; line-height: 0.9; } ";
 	echo "#header-en { font-size: 300%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; } ";
 	echo "</style>";
@@ -49,7 +49,7 @@ echo "<br><a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-
 
 echo "<span class='body-wrapper-spacing'></span>";
 
-echo "<div class='body-subheader'>Photo credits</a>";
+echo "<div class='body-subheader'>Photo credits</div>";
 echo "<br><a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 Dec 26 &rarr; Future of Jewish</div></a>";
 echo "<br><a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 Dec 25 &rarr; Jewish Unpacked</div></a>";
 // echo " <a href='___'>___ &rarr; ___</div></a>";
@@ -57,7 +57,7 @@ echo "<br><a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this
 echo "<br><span class='body-wrapper-spacing'></span>";
 
 echo "Get to know me";
-echo "<br><a href='https://levi.news'><div class='link-bubble'>About &rarr; levi.news</a>";
+echo "<br><a href='https://levi.news'><div class='link-bubble'>About &rarr; levi.news</div></a>";
 echo "<br><a href='https://levi.pictures'><div class='link-bubble'>Photography &rarr; levi.pictures</div></a>";
 echo "<br><a href='https://conversationpieces.rsvp'><div class='link-bubble'>Education &rarr; conversationpieces.rsvp</div></a>";
 echo "<br><a href='mailto:info@levi.news'><div class='link-bubble'>Email &rarr; info@levi.news</div></a>";
