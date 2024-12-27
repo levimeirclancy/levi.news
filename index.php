@@ -41,8 +41,8 @@ echo "<body>";
 
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='header-he'>לוי מאיר קלנסי</div>";
-echo "<div class='header-en'>Levi Meir Clancy</div>";
+echo "<div class='header-he'>לוי מאיר קלנסי</div><br>";
+echo "<div class='header-en'>Levi Meir Clancy</div><br>";
 echo "<div class='header-ja'>レヴィ・メイア・クランシー</div>";
 
 echo "<div class='header-bio width-wrapper'>Levi Meir Clancy is a photographer, videographer, and public speaker whose work blends storytelling, education, and community building. With a background in museum programming and cultural advocacy—from Iraq to the Bay Area—Levi specializes in creating impactful visual narratives and facilitating conversations that inspire connection and understanding.</div>";
