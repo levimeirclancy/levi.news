@@ -19,7 +19,7 @@ echo "<style>";
 
 	echo ".header-he, .header-en, .header-ja { font-family: Courier New; display: block; font-weight: 700; } ";
 	echo ".header-he { transform: rotate(5deg); font-size: 300%; margin: 50px auto 30px; } ";
-	echo ".header-en { transform: rotate(-5deg);font-size: 250%; margin: 0 auto 50px; } ";
+	echo ".header-en { transform: rotate(-8deg);font-size: 250%; margin: 0 auto 50px; } ";
 	echo ".header-ja { transform: rotate(5deg); font-size: 200%; margin: 50px auto 50px; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
