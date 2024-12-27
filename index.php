@@ -63,8 +63,8 @@ echo "</div>";
 echo "<div class='section-pink'>";
 echo "<div class='body-wrapper'>";
 echo "<div class='body-subheader'>Public speaking</div>";
-echo "<br><a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 Oct 10 &rarr; TEDxDuhok — Kurdistan: Homeland of Diversity</div></a>";
-echo "<br><a href='https://www.youtube.com/watch?v=ptyGKlmVniE&t=8s'><div class='link-bubble'>2021 Mar 23 &rarr; HARIF — Jews in Kurdistan</div></a>";
+echo "<br><a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 Oct 10 &rarr; TEDxDuhok</div></a>";
+echo "<br><a href='https://www.youtube.com/watch?v=ptyGKlmVniE&t=8s'><div class='link-bubble'>2021 Mar 23 &rarr; HARIF</div></a>";
 echo "</div>";
 echo "</div>";
 
