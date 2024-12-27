@@ -11,7 +11,7 @@ echo "<!DOCTYPE html>";
 echo "<html>";
 echo "<head>";
 echo "<style>";
-	echo "body { font-family: Times New Roman; background: #222; color: #f5f5f5; line-height: 1.5; margin: 0; padding: 0; } ";
+	echo "body { font-family: Verdana; background: #222; color: #f5f5f5; line-height: 1.5; margin: 0; padding: 0; } ";
 	echo "a { color: #e5e5e5; text-decoration-style: wavy; } ";
 	echo ".body-wrapper { width: 100%; max-width: 700px; display: block; margin: 0 auto; padding: 20px; box-sizing: border-box; } ";
 	echo ".header-spacing { display: block; height: 100px; } ";
