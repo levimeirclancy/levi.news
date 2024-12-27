@@ -20,7 +20,7 @@ echo "<style>";
 	echo "#header-he { font-family: Verdana; font-size: 300%; display: block; transform: rotate(5deg); font-weight: 700; line-height: 0.9; } ";
 	echo "#header-en { font-family: Verdana; font-size: 300%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; } ";
 
-	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 100px 0 0 0; box-sizing: border-box; color: #f0f0f0; } ";
+	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 100px 0 30px 0; box-sizing: border-box; color: #f0f0f0; } ";
 	echo ".section-gray { background: rgba(".$rgb_gray.",1); }";
 	echo ".section-pink { background: rgba(".$rgb_pink.",1); }";
 	echo ".section-yellow {background: rgba(".$rgb_yellow.",1); }";
