@@ -18,8 +18,8 @@ echo "<style>";
 	echo ".width-wrapper { display: block; max-width: 700px; margin: 50px auto;} ";
 
 	echo ".header-he, .header-en { font-family: Courier New; margin: 50px auto;  display: block; font-weight: 700; line-height: 0.9; } ";
-	echo ".header-he { transform: rotate(5deg); font-size: 330%; } ";
-	echo ".header-en { transform: rotate(-5deg);font-size: 250%; } ";
+	echo ".header-he { transform: rotate(5deg); font-size: 300%; } ";
+	echo ".header-en { transform: rotate(-5deg);font-size: 300%; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
 	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 30px 0 30px 0; box-sizing: border-box; color: #f0f0f0; } ";
@@ -42,6 +42,7 @@ echo "<span class='body-spacing'></span>";
 
 echo "<span class='header-he'>לוי<br>מאיר<br>קלנסי</span>";
 echo "<span class='header-en'>Levi<br>Meir<br>Clancy</span>";
+echo "<span class='header-he'>レヴィ<br>メイア<br>クランシー</span>";
 
 echo "<div class='header-bio width-wrapper'>Levi Meir Clancy is a photographer, videographer, and public speaker whose work blends storytelling, education, and community building. With a background in museum programming and cultural advocacy—from Iraq to the Bay Area—Levi specializes in creating impactful visual narratives and facilitating conversations that inspire connection and understanding.</div>";
 
