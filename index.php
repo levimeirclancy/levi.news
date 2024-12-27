@@ -18,7 +18,7 @@ echo "<style>";
 	echo ".footer-spacing { display: block; height: 100px; } ";
 	echo ".body-wrapper-spacing { display: block; height: 50px; } ";
 	echo ".body-subheader { font-size: 120%; font-weight: 700; } ";
-	echo ".link-bubble { font-weight: 700; color: #222; border-radius: 25px; border: 2px solid #f5f5f5; background: rgba(255,255,255,0.9); padding: 8px 35px; margin: 10px 0; display: inline-block; text-align: center; } ";
+	echo ".link-bubble { font-family: Courier New; font-weight: 700; color: #222; border-radius: 25px; border: 2px solid #f5f5f5; background: rgba(255,255,255,0.9); padding: 8px 35px; margin: 10px 0; display: inline-block; text-align: center; } ";
 	echo ".section-pink .body-subheader { color: rgba(".$rgb_pink.",0.9); } ";
 	echo ".section-pink .link-bubble { border-color: rgba(".$rgb_pink.",1); background: rgba(".$rgb_pink.",0.9); } ";
 	echo ".section-yellow .body-subheader { color: rgba(".$rgb_yellow.",0.9); } ";
