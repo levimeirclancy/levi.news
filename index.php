@@ -48,7 +48,8 @@ echo "<div class='header-en'>Levi Meir<br>Clancy</div>";
 echo "<div class='header-ja'>レヴィ・メイア<br>クランシー</div>";
 echo "<div class='header-ku'>لیڤی مایر<br>کلنسی</div>";
 
-echo "<div class='header-bio width-wrapper'>Levi Meir Clancy is a photographer, videographer, and public speaker. Shaped by his Jewish, Ryukyuan (Indigenous Japanese), and LGBTQ experience, his work explores power dynamics, context, and identity. With a background in history and advocacy — from Iraq to the Bay Area — Levi Meir creates impactful visual stories, educational materials, and in-person experiences.</div>";
+echo "<div class='header-bio width-wrapper'>Levi Meir Clancy is a photographer, videographer, and public speaker.</div>";
+echo "<div class='header-bio width-wrapper'>Shaped by his Jewish, Ryukyuan (Indigenous Japanese), and LGBTQ experience, his work explores power dynamics, context, and identity. His professional background in history, communications, and advocacy — from Iraq to the Bay Area — is poured into creating impactful visual stories, educational materials, and in-person experiences.</div>";
 
 echo "<span class='body-spacing'></span>";
 
