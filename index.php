@@ -62,7 +62,7 @@ echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-info section-pink'>";
 echo "<div class='section-subheader width-wrapper'>Public speaking</div>";
-echo "<div class='section-description width-wrapper'>I am...</div>";
+echo "<div class='section-description width-wrapper'>I am a seasoned public speaker who has delivered talks in prestigious settings such as TEDxDuhok, AMP Conf, GSMA Mobile 360, and Qesher. My presentations focus on Jewish heritage, cultural advocacy, and fostering cross-cultural understanding, drawing from my extensive lived experiences with varied identites and geographies.</div>";
 echo "</div>";
 
 echo "<a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 Oct 10 &rarr; TEDxDuhok</div></a>";
