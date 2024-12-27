@@ -14,11 +14,8 @@ echo "<head>";
 echo "<style>";
 	echo "body { font-family: Courier New; background: #f0f0f0; color: #222; line-height: 1.5; margin: 0; padding: 0; } ";
 	echo "a { color: #e5e5e5; text-decoration-style: wavy; } ";
-	echo ".body-wrapper { width: 100%; max-width: 700px; display: block; margin: 0 auto; padding: 20px; box-sizing: border-box; } ";
-	echo ".header-spacing { display: block; height: 100px; } ";
-	echo ".footer-spacing { display: block; height: 100px; } ";
-	echo ".body-wrapper-spacing { display: block; height: 50px; } ";
-	echo ".body-subheader { font-size: 120%; font-weight: 700; color: #f0f0f0; } ";
+	echo ".body-spacing { display: block; height: 50px; } ";
+	echo ".body-subheader { font-size: 120%; font-weight: 700; color: #f0f0f0; display: block; max-width: 700px; margin: 50px auto; } ";
 	echo ".link-bubble { font-family: Courier New; font-weight: 700; border-radius: 25px; border: 2px solid #f0f0f0; color: rgba(255,255,255,0.9); padding: 8px 35px; margin: 10px 0; display: block; text-align: center; } ";
 	echo ".link-bubble a { text-decoration-style: wavy; } ";
 	echo ".section-gray { display: block; margin: 0; padding: 50px 10px; background: rgba(".$rgb_gray.",1); }";
@@ -40,17 +37,13 @@ echo "<style>";
 echo "</head>";
 echo "<body>";
 
-echo "<div class='body-wrapper'>";
-
-echo "<span class='header-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 echo "<span id='header-he'>לוי<br>מאיר<br>קלנסי</span>";
 echo "<span id='header-en'>Levi<br>Meir<br>Clancy</span>";
 
-echo "<span class='body-wrapper-spacing'></span>";
-echo "<span class='body-wrapper-spacing'></span>";
-
-echo "</div>";
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-yellow'>";
 echo "<div class='body-wrapper'>";
@@ -96,9 +89,7 @@ echo "<br><a href='https://conversationpieces.rsvp'><div class='link-bubble'>Edu
 echo "<br><a href='mailto:info@levi.news'><div class='link-bubble'>Email &rarr; info@levi.news</div></a>";
 echo "</div>";
 
-echo "<span class='footer-spacing'></span>";
-
-echo "</div>";
+echo "<span class='body-spacing'></span>";
 
 echo "</body>";
 echo "</html>";
