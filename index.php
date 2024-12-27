@@ -30,7 +30,7 @@ echo "<style>";
 	echo ".section-subheader { font-family: Verdana; font-size: 200%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; max-width: 700px; margin: 50px auto; } ";
 	echo ".section-description { font-family: Verdana; font-size: 100%; display: block; font-weight: 400; } ";
 
-	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 80%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 10px; display: inline-block; text-align: center; } ";
+	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 85%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
 	echo ".link-bubble a { text-decoration-style: wavy; } ";
 
 	echo "</style>";
