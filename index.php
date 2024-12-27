@@ -20,10 +20,9 @@ echo "<style>";
 	echo ".header-he, .header-en { font-family: Verdana; margin: 50px auto;  display: block; font-weight: 700; line-height: 0.9; } ";
 	echo ".header-he { transform: rotate(5deg); font-size: 330%; } ";
 	echo ".header-en { transform: rotate(-5deg);font-size: 250%; } ";
-	echo ".header-bio { font-family: Verdana; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
+	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
-
-	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 100px 0 30px 0; box-sizing: border-box; color: #f0f0f0; } ";
+	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 30px 0 30px 0; box-sizing: border-box; color: #f0f0f0; } ";
 	echo ".section-gray { background: rgba(".$rgb_gray.",1); }";
 	echo ".section-pink { background: rgba(".$rgb_pink.",1); }";
 	echo ".section-yellow {background: rgba(".$rgb_yellow.",1); }";
@@ -47,7 +46,6 @@ echo "<span class='header-en'>Levi<br>Meir<br>Clancy</span>";
 echo "<div class='header-bio width-wrapper'>Levi Meir Clancy is a photographer, videographer, and public speaker whose work blends storytelling, education, and community building. With a background in museum programming and cultural advocacy—from Iraq to the Bay Area—Levi specializes in creating impactful visual narratives and facilitating conversations that inspire connection and understanding.</div>";
 
 echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-info section-yellow'>";
 echo "<div class='section-subheader width-wrapper'>Professional links</div>";
@@ -57,6 +55,8 @@ echo "</div>";
 echo "<a href='http://linkedin.com/in/levimeirclancy/'><div class='link-bubble'>LinkedIn</div></a>";
 echo "<a href='https://blogs.timesofisrael.com/author/levi-clancy/'><div class='link-bubble'>Blogs @ Times of Israel</div></a>";
 
+echo "<span class='body-spacing'></span>";
+
 echo "<div class='section-info section-pink'>";
 echo "<div class='section-subheader width-wrapper'>Public speaking</div>";
 echo "<div class='section-description width-wrapper'>I am...</div>";
@@ -64,6 +64,8 @@ echo "</div>";
 
 echo "<a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 Oct 10 &rarr; TEDxDuhok</div></a>";
 echo "<a href='https://www.youtube.com/watch?v=ptyGKlmVniE&t=8s'><div class='link-bubble'>2021 Mar 23 &rarr; HARIF</div></a>";
+
+echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-info section-blue'>";
 echo "<div class='section-subheader width-wrapper'>Press</div>";
@@ -74,6 +76,8 @@ echo "<a href='https://birthrightisrael.foundation/blog/meet-photographer-and-la
 echo "<a href='https://forward.com/news/482748/founder-of-jewish-museum-expelled-from-iraqi-kurdistan-levi-meir-clancy/'><div class='link-bubble'>2022 Feb 20 &rarr; The Forward</div></a>";
 echo "<a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-museum-celebrates-the-regions-jewish-history/'><div class='link-bubble'>2021 Jul 20 &rarr; The Forward</div></a>";
 
+echo "<span class='body-spacing'></span>";
+
 echo "<div class='section-info section-orange'>";
 echo "<div class='section-subheader width-wrapper'>Credits</div>";
 echo "<div class='section-description width-wrapper'>I am...</div>";
@@ -83,6 +87,8 @@ echo "<a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-dr
 echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 Dec 25 &rarr; Jewish Unpacked</div></a>";
 
 // echo " <a href='___'>___ &rarr; ___</div></a>";
+
+echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-info section-gray'>";
 echo "<div class='section-subheader width-wrapper'>Get to know me</div>";
