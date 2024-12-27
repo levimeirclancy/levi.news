@@ -43,8 +43,8 @@ echo "<body>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='header-he'>לוי מאיר קלנסי</div>";
-echo "<div class='header-en'>Levi Meir Clancy</div>";
+echo "<div class='header-he'>לוי מאיר קלנסי</div><br>";
+echo "<div class='header-en'>Levi Meir Clancy</div><br>";
 echo "<div class='header-ku'>لیڤی مایر کلنسی</div>";
 echo "<div class='header-ja'>レヴィ・メイア・クランシー</div>";
 
