@@ -73,7 +73,7 @@ echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-info section-blue'>";
 echo "<div class='section-subheader width-wrapper'>Press</div>";
-echo "<div class='section-description width-wrapper'>I am...</div>";
+echo "<div class='section-description width-wrapper'>Levi Meir Clancy has been featured in media coverage from childhood to adulthood, highlighting his work, advocacy, and achievements.</div>";
 echo "</div>";
 
 echo "<a href='https://birthrightisrael.foundation/blog/meet-photographer-and-la-birthright-israel-alum-levi-meir-clancy/'><div class='link-bubble'>2022 Jun 16 &rarr; Taglit-Birthright</div></a>";
