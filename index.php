@@ -13,7 +13,6 @@ echo "<html>";
 echo "<head>";
 echo "<style>";
 	echo "body { font-family: Courier New; background: #f0f0f0; color: #222; line-height: 1.5; margin: 0; padding: 0; text-align: center; } ";
-	echo "a { color: #e5e5e5; text-decoration-style: wavy; } ";
 	echo ".body-spacing { display: block; height: 50px; } ";
 	echo ".width-wrapper { display: block; max-width: 700px; margin: 50px auto;} ";
 
@@ -31,7 +30,6 @@ echo "<style>";
 	echo ".section-description { font-family: Verdana; font-size: 100%; display: block; font-weight: 400; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 85%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
-	echo ".link-bubble a { text-decoration-style: wavy; } ";
 
 	echo "</style>";
 echo "</head>";
