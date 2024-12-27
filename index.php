@@ -78,7 +78,7 @@ echo "</div>";
 
 echo "<br><span class='body-wrapper-spacing'></span>";
 
-echo "Get to know me";
+echo "<div class='body-subheader'>Get to know me</div>";
 echo "<br><a href='https://levi.news'><div class='link-bubble'>About &rarr; levi.news</div></a>";
 echo "<br><a href='https://levi.pictures'><div class='link-bubble'>Photography &rarr; levi.pictures</div></a>";
 echo "<br><a href='https://conversationpieces.rsvp'><div class='link-bubble'>Education &rarr; conversationpieces.rsvp</div></a>";
