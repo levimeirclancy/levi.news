@@ -2,6 +2,11 @@
 
 include_once("index-content.php");
 
+$rgb_pink = "255,105,180";
+$rgb_orange = "255,127,80";
+$rgb_yellow = "255,204,0";
+$rgb_blue = "0,155,220";
+
 echo "<!DOCTYPE html>";
 echo "<html>";
 echo "<head>";
@@ -14,14 +19,14 @@ echo "<style>";
 	echo ".body-wrapper-spacing { display: block; height: 50px; } ";
 	echo ".body-subheader { font-size: 120%; font-weight: 700; } ";
 	echo ".link-bubble { border-radius: 25px; border: 2px solid #f5f5f5; background: rgba(255,255,255,0.08); padding: 8px 25px; margin: 10px 0; display: inline-block; text-align: center; } ";
-	echo ".section-pink .body-subheader { color: rgba(255,105,180,0.9); } ";
-	echo ".section-pink .link-bubble { border-color: rgba(255,105,180,1); background: rgba(255,105,180,0.08); } ";
-	echo ".section-yellow .body-subheader { color: rgba(255,204,0,0.9); } ";
-	echo ".section-yellow .link-bubble { border-color: rgba(255,204,0,1); background: rgba(255,204,0,0.08); } ";
-	echo ".section-orange .body-subheader { color: rgba(255,127,80,0.9); } ";
-	echo ".section-orange .link-bubble { border-color: rgba(255,127,80,1); background: rgba(255,127,80,0.08); } ";
-	echo ".section-blue .body-subheader { color: rgba(3,37,76,0.9); } ";
-	echo ".section-blue .link-bubble { border-color: rgba(3,37,76,1); background: rgba(3,37,76,0.08); } ";
+	echo ".section-pink .body-subheader { color: rgba(".$rgb_pink.",0.9); } ";
+	echo ".section-pink .link-bubble { border-color: rgba(".$rgb_pink.",1); background: rgba(".$rgb_pink.",0.08); } ";
+	echo ".section-yellow .body-subheader { color: rgba(".$rgb_yellow.",0.9); } ";
+	echo ".section-yellow .link-bubble { border-color: rgba(".$rgb_yellow.",1); background: rgba(".$rgb_yellow.",0.08); } ";
+	echo ".section-orange .body-subheader { color: rgba(".$rgb_orange.",0.9); } ";
+	echo ".section-orange .link-bubble { border-color: rgba(".$rgb_orange.",1); background: rgba(".$rgb_orange.",0.08); } ";
+	echo ".section-blue .body-subheader { color: rgba(".$rgb_blue",0.9); } ";
+	echo ".section-blue .link-bubble { border-color: rgba(".$rgb_blue",1); background: rgba(".$rgb_blue",0.08); } ";
 	echo "#header-he { font-size: 300%; display: block; transform: rotate(5deg); font-weight: 700; line-height: 0.9; } ";
 	echo "#header-en { font-size: 300%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; } ";
 	echo "</style>";
