@@ -20,8 +20,8 @@ echo "<style>";
 	echo ".header-he, .header-en, .header-ja, .header-ku { font-family: Courier New; display: block; font-weight: 700; line-height: 0.9; } ";
 	echo ".header-he { transform: rotate(-12deg); font-size: 300%; margin: 50px auto; color: rgba(0,0,0,1); } ";
 	echo ".header-en { transform: rotate(9deg);font-size: 250%; margin: 50px auto; color: rgba(50,50,50,1); } ";
-	echo ".header-ku { transform: rotate(0deg);font-size: 250%; margin: 50px auto; color: rgba(100,100,100,1); } ";
-	echo ".header-ja { transform: rotate(-12deg); font-size: 200%; margin: 50px auto; color: rgba(150,150,150,1); } ";
+	echo ".header-ja { transform: rotate(-12deg); font-size: 200%; margin: 50px auto; color: rgba(100,100,100,1); } ";
+	echo ".header-ku { transform: rotate(0deg);font-size: 250%; margin: 50px auto; color: rgba(150,150,150,1); } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
 	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 30px 0 30px 0; box-sizing: border-box; color: #f0f0f0; } ";
