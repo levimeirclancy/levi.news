@@ -12,7 +12,7 @@ echo "<!DOCTYPE html>";
 echo "<html>";
 echo "<head>";
 echo "<style>";
-	echo "body { font-family: Courier New; background: #f0f0f0; color: #222; line-height: 1.5; margin: 0; padding: 0; } ";
+	echo "body { font-family: Courier New; background: #f0f0f0; color: #222; line-height: 1.5; margin: 0; padding: 0; text-align: center; } ";
 	echo "a { color: #e5e5e5; text-decoration-style: wavy; } ";
 	echo ".body-spacing { display: block; height: 50px; } ";
 	echo ".width-wrapper { display: block; max-width: 700px; margin: 50px auto;} ";
@@ -20,7 +20,7 @@ echo "<style>";
 	echo "#header-he { font-family: Verdana; font-size: 300%; display: block; transform: rotate(5deg); font-weight: 700; line-height: 0.9; } ";
 	echo "#header-en { font-family: Verdana; font-size: 300%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; } ";
 
-	echo ".section-info { display: block; width: 100%; padding: 50px 10px; margin: 100px 0 0 0; box-sizing: border-box; color: #f0f0f0; } ";
+	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 100px 0 0 0; box-sizing: border-box; color: #f0f0f0; } ";
 	echo ".section-gray { background: rgba(".$rgb_gray.",1); }";
 	echo ".section-pink { background: rgba(".$rgb_pink.",1); }";
 	echo ".section-yellow {background: rgba(".$rgb_yellow.",1); }";
@@ -30,7 +30,7 @@ echo "<style>";
 	echo ".section-subheader { font-family: Verdana; font-size: 200%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; max-width: 700px; margin: 50px auto; } ";
 	echo ".section-description { font-family: Verdana; font-size: 100%; display: block; font-weight: 400; } ";
 
-	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 75%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 10px; display: inline-block; text-align: center; } ";
+	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 80%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 10px; display: inline-block; text-align: center; } ";
 	echo ".link-bubble a { text-decoration-style: wavy; } ";
 
 	echo "</style>";
