@@ -50,6 +50,7 @@ echo "<br><a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-
 echo "<span class='body-wrapper-spacing'></span>";
 
 echo "<div class='body-subheader'>Photo credits</a>";
+echo "<br><a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 Dec 26 &rarr; Future of Jewish</div></a>";
 echo "<br><a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 Dec 25 &rarr; Jewish Unpacked</div></a>";
 // echo " <a href='___'>___ &rarr; ___</div></a>";
 
