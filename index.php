@@ -75,9 +75,23 @@ echo "<a href='https://www.youtube.com/watch?v=ptyGKlmVniE&t=8s'><div class='lin
 
 echo "<span class='body-spacing'></span>";
 
+echo "<div class='section-info section-gray'>";
+echo "<div class='section-subheader width-wrapper'>Get to know me</div>";
+echo "<div class='section-description width-wrapper'>I am...</div>";
+echo "</div>";
+
+echo "<a href='https://levi.news'><div class='link-bubble'>About &rarr; levi.news</div></a>";
+echo "<a href='https://levi.pictures'><div class='link-bubble'>Photography &rarr; levi.pictures</div></a>";
+echo "<a href='https://conversationpieces.rsvp'><div class='link-bubble'>Education &rarr; conversationpieces.rsvp</div></a>";
+echo "<a href='mailto:info@levi.news'><div class='link-bubble'>Email &rarr; info@levi.news</div></a>";
+
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+
 echo "<div class='section-info section-blue'>";
 echo "<div class='section-subheader width-wrapper'>Press</div>";
-echo "<div class='section-description width-wrapper'>Levi Meir Clancy has been featured in media coverage from childhood to adulthood, highlighting his work, advocacy, and achievements.</div>";
+echo "<div class='section-description width-wrapper'>Levi Meir has been featured in media coverage from childhood to adulthood, highlighting his work, advocacy, and achievements.</div>";
 echo "</div>";
 
 echo "<a href='https://birthrightisrael.foundation/blog/meet-photographer-and-la-birthright-israel-alum-levi-meir-clancy/'><div class='link-bubble'>2022 Jun 16 &rarr; Taglit-Birthright</div></a>";
@@ -98,17 +112,7 @@ echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-han
 
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-info section-gray'>";
-echo "<div class='section-subheader width-wrapper'>Get to know me</div>";
-echo "<div class='section-description width-wrapper'>I am...</div>";
-echo "</div>";
 
-echo "<a href='https://levi.news'><div class='link-bubble'>About &rarr; levi.news</div></a>";
-echo "<a href='https://levi.pictures'><div class='link-bubble'>Photography &rarr; levi.pictures</div></a>";
-echo "<a href='https://conversationpieces.rsvp'><div class='link-bubble'>Education &rarr; conversationpieces.rsvp</div></a>";
-echo "<a href='mailto:info@levi.news'><div class='link-bubble'>Email &rarr; info@levi.news</div></a>";
-
-echo "<span class='body-spacing'></span>";
 
 echo "</body>";
 echo "</html>";
