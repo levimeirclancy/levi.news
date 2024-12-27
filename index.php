@@ -19,7 +19,7 @@ echo "<style>";
 	echo ".footer-spacing { display: block; height: 100px; } ";
 	echo ".body-wrapper-spacing { display: block; height: 50px; } ";
 	echo ".body-subheader { font-size: 120%; font-weight: 700; color: #f0f0f0; } ";
-	echo ".link-bubble { font-family: Courier New; font-weight: 700; border-radius: 25px; border: 2px solid #f0f0f0; color: rgba(255,255,255,0.9); padding: 8px 35px; margin: 10px 0; display: inline-block; text-align: center; } ";
+	echo ".link-bubble { font-family: Courier New; font-weight: 700; border-radius: 25px; border: 2px solid #f0f0f0; color: rgba(255,255,255,0.9); padding: 8px 35px; margin: 10px 0; display: block; text-align: center; } ";
 	echo ".link-bubble a { text-decoration-style: wavy; } ";
 	echo ".section-gray { display: block; margin: 0; padding: 50px 10px; background: rgba(".$rgb_gray.",1); }";
 	echo ".section-pink { display: block; margin: 0; padding: 50px 10px; background: rgba(".$rgb_pink.",1); }";
