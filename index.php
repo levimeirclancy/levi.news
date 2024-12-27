@@ -54,7 +54,7 @@ echo "<div class='header-bio width-wrapper'><b>Levi Meir Clancy is a photographe
 
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-info section-yellow'>";
+echo "<div class='section-info section-orange'>";
 echo "<div class='section-subheader width-wrapper'>Passion and purpose</div>";
 echo "<div class='section-description width-wrapper'>
 I tell stories through photos, videos, and events. My work explores Jewishness, identity, personal history, and cross-cultural connections. Rooted in my Jewish values, I also support adults with disabilities in building independence and community.</div>";
@@ -75,7 +75,7 @@ echo "<a href='https://www.youtube.com/watch?v=ptyGKlmVniE&t=8s'><div class='lin
 
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-info section-gray'>";
+echo "<div class='section-info section-blue'>";
 echo "<div class='section-subheader width-wrapper'>Get to know me</div>";
 echo "<div class='section-description width-wrapper'>I am...</div>";
 echo "</div>";
@@ -89,7 +89,7 @@ echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-info section-blue'>";
+echo "<div class='section-info section-gray'>";
 echo "<div class='section-subheader width-wrapper'>Press</div>";
 echo "<div class='section-description width-wrapper'>Levi Meir has been featured in media coverage from childhood to adulthood, highlighting his work, advocacy, and achievements.</div>";
 echo "</div>";
@@ -100,7 +100,7 @@ echo "<a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-muse
 
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-info section-orange'>";
+echo "<div class='section-info section-gray'>";
 echo "<div class='section-subheader width-wrapper'>Credits</div>";
 echo "<div class='section-description width-wrapper'>I am...</div>";
 echo "</div>";
