@@ -55,7 +55,7 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='section-info section-yellow'>";
 echo "<div class='section-subheader width-wrapper'>Passion and purpose</div>";
 echo "<div class='section-description width-wrapper'>
-I tell stories through photos, videos, and events. My work explores Jewishness, identity, personal history, and cross-cultural connections. I also support adults with disabilities in building independence and community.</div>";
+I tell stories through photos, videos, and events. My work explores Jewishness, identity, personal history, and cross-cultural connections. Rooted in my Jewish values, I also support adults with disabilities in building independence and community.</div>";
 echo "</div>";
 
 echo "<a href='http://linkedin.com/in/levimeirclancy/'><div class='link-bubble'>LinkedIn</div></a>";
