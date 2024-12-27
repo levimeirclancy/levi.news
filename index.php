@@ -19,7 +19,7 @@ echo "<style>";
 
 	echo ".header-he { font-family: Verdana; margin: 10px auto; font-size: 300%; display: block; transform: rotate(5deg); font-weight: 700; line-height: 0.9; } ";
 	echo ".header-en { font-family: Verdana; margin: 10px auto; font-size: 300%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; } ";
-	echo ".header-bio { font-family: Verdana; font-size: 120%; line-height: 1.3; display: block; font-weight: 400; text-align: left; } ";
+	echo ".header-bio { font-family: Verdana; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
 
 	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 100px 0 30px 0; box-sizing: border-box; color: #f0f0f0; } ";
