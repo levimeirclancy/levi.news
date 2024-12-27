@@ -14,6 +14,10 @@ echo "<style>";
 	echo ".body-wrapper-spacing { display: block; height: 50px; } ";
 	echo ".body-subheader { font-size: 120%; font-weight: 700; } ";
 	echo ".link-bubble { border-radius: 25px; border: 2px solid #f5f5f5; background: rgba(255,255,255,0.08); padding: 8px 25px; margin: 10px 0; display: inline-block; text-align: center; } ";
+	echo ".section-pink .link-bubble { background: rgba(255,105,180,0.08); }";
+	echo ".section-yellow .link-bubble { background: rgba(255,204,0,0.08); }";
+	echo ".section-orange .link-bubble { background: rgba(255,127,80,0.08); }";
+	echo ".section-blue .link-bubble { background: rgba(3,37,76,0.08); }";
 	echo "#header-he { font-size: 300%; display: block; transform: rotate(5deg); font-weight: 700; line-height: 0.9; } ";
 	echo "#header-en { font-size: 300%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; } ";
 	echo "</style>";
@@ -30,28 +34,37 @@ echo "<span id='header-en'>Levi<br>Meir<br>Clancy</span>";
 echo "<span class='body-wrapper-spacing'></span>";
 echo "<span class='body-wrapper-spacing'></span>";
 
+echo "<div id='section-yellow'>";
 echo "<div class='body-subheader'>Professional links</div>";
 echo "<br><a href='http://linkedin.com/in/levimeirclancy/'><div class='link-bubble'>LinkedIn</div></a>";
 echo "<br><a href='https://blogs.timesofisrael.com/author/levi-clancy/'><div class='link-bubble'>Blogs @ Times of Israel</div></a>";
+echo "</div>";
 
 echo "<span class='body-wrapper-spacing'></span>";
 
+echo "<div id='section-pink'>";
 echo "<div class='body-subheader'>Public speaking</div>";
 echo "<br><a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 Oct 10 &rarr; TEDxDuhok — Kurdistan: Homeland of Diversity</div></a>";
 echo "<br><a href='https://www.youtube.com/watch?v=ptyGKlmVniE&t=8s'><div class='link-bubble'>2021 Mar 23 &rarr; HARIF — Jews in Kurdistan</div></a>";
+echo "</div>";
 
 echo "<span class='body-wrapper-spacing'></span>";
 
+echo "<div id='section-blue'>";
 echo "<div class='body-subheader'>Press</div>";
 echo "<br><a href='https://birthrightisrael.foundation/blog/meet-photographer-and-la-birthright-israel-alum-levi-meir-clancy/'><div class='link-bubble'>2022 Jun 16 &rarr; Taglit-Birthright</div></a>";
 echo "<br><a href='https://forward.com/news/482748/founder-of-jewish-museum-expelled-from-iraqi-kurdistan-levi-meir-clancy/'><div class='link-bubble'>2022 Feb 20 &rarr; The Forward</div></a>";
 echo "<br><a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-museum-celebrates-the-regions-jewish-history/'><div class='link-bubble'>2021 Jul 20 &rarr; The Forward</div></a>";
+echo "</div>";
 
 echo "<span class='body-wrapper-spacing'></span>";
 
+echo "<div id='section-orange'>";
 echo "<div class='body-subheader'>Photo credits</div>";
 echo "<br><a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 Dec 26 &rarr; Future of Jewish</div></a>";
 echo "<br><a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 Dec 25 &rarr; Jewish Unpacked</div></a>";
+echo "</div>";
+
 // echo " <a href='___'>___ &rarr; ___</div></a>";
 
 echo "<br><span class='body-wrapper-spacing'></span>";
