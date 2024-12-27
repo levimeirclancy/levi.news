@@ -45,13 +45,14 @@ echo "<div class='header-he'>לוי מאיר קלנסי</div><br>";
 echo "<div class='header-en'>Levi Meir Clancy</div><br>";
 echo "<div class='header-ja'>レヴィ・メイア・クランシー</div>";
 
-echo "<div class='header-bio width-wrapper'>Levi Meir Clancy is a photographer, videographer, and public speaker whose work blends storytelling, education, and community building. With a background in museum programming and cultural advocacy—from Iraq to the Bay Area—Levi specializes in creating impactful visual narratives and facilitating conversations that inspire connection and understanding.</div>";
+echo "<div class='header-bio width-wrapper'>Levi Meir Clancy is a photographer, videographer, and public speaker whose work blends storytelling, education, and community building. With a background in history, demography, and cultural advocacy — from Iraq to the Bay Area — Levi Meir specializes in creating impactful visual narratives and facilitating conversations that inspire connection and understanding.</div>";
 
 echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-info section-yellow'>";
-echo "<div class='section-subheader width-wrapper'>Professional links</div>";
-echo "<div class='section-description width-wrapper'>I am...</div>";
+echo "<div class='section-subheader width-wrapper'>Passion and purpose</div>";
+echo "<div class='section-description width-wrapper'>
+I tell stories through photos, videos, and events. My work explores Jewishness, identity, personal history, and cross-cultural connections. I also support adults with disabilities in building independence and community.</div>";
 echo "</div>";
 
 echo "<a href='http://linkedin.com/in/levimeirclancy/'><div class='link-bubble'>LinkedIn</div></a>";
