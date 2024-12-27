@@ -17,10 +17,10 @@ echo "<style>";
 	echo ".body-spacing { display: block; height: 50px; } ";
 	echo ".width-wrapper { display: block; max-width: 700px; margin: 50px auto;} ";
 
-	echo ".header-he, .header-en, .header-ja { font-family: Courier New;  display: block; font-weight: 700; line-height: 0.9; } ";
-	echo ".header-he { transform: rotate(5deg); font-size: 300%; margin: 50px auto; } ";
+	echo ".header-he, .header-en, .header-ja { font-family: Courier New; display: block; font-weight: 700; } ";
+	echo ".header-he { transform: rotate(5deg); font-size: 300%; margin: 50px auto 30px; } ";
 	echo ".header-en { transform: rotate(-5deg);font-size: 250%; margin: 0 auto 50px; } ";
-	echo ".header-ja { transform: rotate(5deg); font-size: 200%; margin: 50px auto; } ";
+	echo ".header-ja { transform: rotate(5deg); font-size: 200%; margin: 50px auto 50px; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
 	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 30px 0 30px 0; box-sizing: border-box; color: #f0f0f0; } ";
@@ -41,9 +41,9 @@ echo "<body>";
 
 echo "<span class='body-spacing'></span>";
 
-echo "<span class='header-he'>לוי מאיר קלנסי</span>";
-echo "<span class='header-en'>Levi Meir Clancy</span>";
-echo "<span class='header-ja'>レヴィ・メイア・クランシー</span>";
+echo "<div class='header-he'>לוי מאיר קלנסי</div>";
+echo "<div class='header-en'>Levi Meir Clancy</div>";
+echo "<div class='header-ja'>レヴィ・メイア・クランシー</div>";
 
 echo "<div class='header-bio width-wrapper'>Levi Meir Clancy is a photographer, videographer, and public speaker whose work blends storytelling, education, and community building. With a background in museum programming and cultural advocacy—from Iraq to the Bay Area—Levi specializes in creating impactful visual narratives and facilitating conversations that inspire connection and understanding.</div>";
 
