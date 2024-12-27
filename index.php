@@ -20,7 +20,7 @@ echo "<style>";
 	echo ".header-he, .header-en, .header-ja { font-family: Courier New; margin: 50px auto;  display: block; font-weight: 700; line-height: 0.9; } ";
 	echo ".header-he { transform: rotate(5deg); font-size: 300%; } ";
 	echo ".header-en { transform: rotate(-5deg);font-size: 250%; } ";
-	echo ".header-ja { transform: rotate(5deg); font-size: 250%; } ";
+	echo ".header-ja { transform: rotate(5deg); font-size: 200%; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
 	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 30px 0 30px 0; box-sizing: border-box; color: #f0f0f0; } ";
