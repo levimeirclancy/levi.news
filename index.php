@@ -13,7 +13,7 @@ echo "<style>";
 	echo ".footer-spacing { display: block; height: 100px; } ";
 	echo ".body-wrapper-spacing { display: block; height: 50px; } ";
 	echo ".body-subheader { font-size: 120%; font-weight: 700; } ";
-	echo ".link-bubble { border-radius: 25px; border: 2px solid #f5f5f5; background: rgba(255,255,255,0.15); padding: 8px 25px; margin: 10px 0; display: inline-block; text-align: center; } ";
+	echo ".link-bubble { border-radius: 25px; border: 2px solid #f5f5f5; background: rgba(255,255,255,0.08); padding: 8px 25px; margin: 10px 0; display: inline-block; text-align: center; } ";
 	echo "#header-he { font-size: 300%; display: block; transform: rotate(5deg); font-weight: 700; line-height: 0.9; } ";
 	echo "#header-en { font-size: 300%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; } ";
 	echo "</style>";
