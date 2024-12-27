@@ -3,9 +3,9 @@
 include_once("index-content.php");
 
 $rgb_gray = "55,55,55";
-$rgb_pink = "255,105,180";
+$rgb_pink = "245,100,175";
 $rgb_orange = "255,127,80";
-$rgb_yellow = "255,204,0";
+$rgb_yellow = "250,180,0";
 $rgb_blue = "0,155,220";
 
 echo "<!DOCTYPE html>";
@@ -60,8 +60,6 @@ echo "<br><a href='https://blogs.timesofisrael.com/author/levi-clancy/'><div cla
 echo "</div>";
 echo "</div>";
 
-echo "<span class='body-wrapper-spacing'></span>";
-
 echo "<div class='section-pink'>";
 echo "<div class='body-wrapper'>";
 echo "<div class='body-subheader'>Public speaking</div>";
@@ -69,8 +67,6 @@ echo "<br><a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link
 echo "<br><a href='https://www.youtube.com/watch?v=ptyGKlmVniE&t=8s'><div class='link-bubble'>2021 Mar 23 &rarr; HARIF — Jews in Kurdistan</div></a>";
 echo "</div>";
 echo "</div>";
-
-echo "<span class='body-wrapper-spacing'></span>";
 
 echo "<div class='section-blue'>";
 echo "<div class='body-wrapper'>";
@@ -81,8 +77,6 @@ echo "<br><a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-
 echo "</div>";
 echo "</div>";
 
-echo "<span class='body-wrapper-spacing'></span>";
-
 echo "<div class='section-orange'>";
 echo "<div class='body-wrapper'>";
 echo "<div class='body-subheader'>Photo credits</div>";
@@ -92,8 +86,6 @@ echo "</div>";
 echo "</div>";
 
 // echo " <a href='___'>___ &rarr; ___</div></a>";
-
-echo "<br><span class='body-wrapper-spacing'></span>";
 
 echo "<div class='section-gray'>";
 echo "<div class='body-wrapper'>";
