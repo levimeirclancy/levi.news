@@ -76,7 +76,7 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='section-info section-orange'>";
 echo "<div class='section-subheader width-wrapper'>Growth and Compassion</div>";
 echo "<div class='section-description width-wrapper'>";
-echo "As a <b>direct support professional</b>, I support adults with disabilities in building independence and community. Through community-level and one-on-one activities, my role helps disabled adults achieve growth and independence through strategic challenges, personalized coaching, and creative experiences tailored to their unique intellectual disabilities. My work is set in a neurodiverse <q>urban village</q> of disabled and non-disabled adults based on Kibbutz Kishorit, an innovative Israeli program rooted in Jewish values.";
+echo "As a <b>direct support professional</b>, I empower adults with disabilities to build independence and community through strategic challenges, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
 echo "</div>";
 echo "</div>";
 
