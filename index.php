@@ -24,7 +24,7 @@ function rgb_formatter($array, $modifier=0) {
 
 	if ( count($array_formatted) !== 3 ): return [ 0, 0, 0] ; endif;
 
-	return $array_formatted[0]
+	return implode(",",$array_formatted);
 
 	}
 
