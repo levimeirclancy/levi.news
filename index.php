@@ -93,9 +93,8 @@ echo "<span class='body-spacing'></span>";
 
 // Intro summary
 
-echo "<div class='header-bio width-wrapper'>I am a direct support professional, a media generalist, and an all-around hard worker.</div>";
+echo "<div class='header-bio width-wrapper'>I am a support mentor, a media generalist, and an all-around hard worker.</div>";
 
-echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
 // echo "<a href='https://levi.news'><div class='link-bubble'>About &rarr; levi.news</div></a>";
@@ -107,13 +106,14 @@ echo "<a href='mailto:info@levi.news'><div class='link-bubble'>Email &rarr; info
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 // Disability services
 
 echo "<div class='section-wrapper section-wrapper-orange'>";
 echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Growth and compassion</div></div>";
 echo "<div class='section-description width-wrapper'>";
-echo "As a <b>direct support professional</b>, I empower adults with cognitive disabilities to build independence and community through strategic challenges, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
+echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic challenges, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
 echo "</div>";
 echo "</div>";
 
