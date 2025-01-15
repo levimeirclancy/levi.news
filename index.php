@@ -75,7 +75,7 @@ echo "<style>";
 	echo ".section-wrapper-blue { background: ".rgb_formatter($rgb_gray,-60)."; }";
 	echo ".section-wrapper-blue .section-subheader { background: ".rgb_formatter($rgb_gray,-65)."; }";
 
-	echo ".section-subheader { font-family: Verdana; sticky: absolute; top: -20px; left: 0; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 0; } ";
+	echo ".section-subheader { font-family: Verdana; position: sticky; top: -20px; left: 0; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 0; } ";
 	echo ".section-subheader-rotate-ccw { transform: rotate(-5deg); }";
 	echo ".section-subheader-rotate-cw { transform: rotate(5deg); }";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0 auto; font-weight: 400; text-align: left; } ";
