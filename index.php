@@ -54,23 +54,24 @@ echo "<style>";
 
 	echo ".header-he, .header-en, .header-ja, .header-ku {  margin: 30px; font-family: Courier New; font-weight: 700; line-height: 0.9; display: inline-block;  } ";
 	echo ".header-he { transform: rotate(-12deg); font-size: 260%; color: ".rgb_formatter($rgb_dark).";} ";
-	echo ".header-en { transform: rotate(9deg);font-size: 250%; margin: color: ".rgb_formatter($rgb_dark,0,0.85)."; } ";
+//	echo ".header-en { transform: rotate(9deg);font-size: 250%; margin: color: ".rgb_formatter($rgb_dark,0,0.85)."; } ";
+	echo ".header-en { transform: rotate(-12deg);font-size: 300%; margin: color: ".rgb_formatter($rgb_dark,0,0.85)."; } ";
 	echo ".header-ja { transform: rotate(-12deg); font-size: 220%; color: ".rgb_formatter($rgb_dark,0,0.7)."; line-height: 1; } ";
 	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: ".rgb_formatter($rgb_dark,0,0.55)."; line-height: 1; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
-	echo ".header-bio a { color: ".rgb_formatter($rgb_dark)."; } ";
+	echo ".header-bio a { color: ".rgb_formatter($rgb_dark)."; font-weight: 700; } ";
 
 	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 10px 10px 80px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
 	echo ".section-wrapper a { color: ".rgb_formatter($rgb_light)."; }";
 	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,0)."; }";
-	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
-	echo ".section-wrapper-pink { background: ".rgb_formatter($rgb_pink)."; }";
-	echo ".section-wrapper-pink .section-subheader { background: ".rgb_formatter($rgb_pink,-20)."; }";
-	echo ".section-wrapper-yellow {background: ".rgb_formatter($rgb_yellow)."; }";
-	echo ".section-wrapper-yellow .section-subheader { background: ".rgb_formatter($rgb_yellow,-20)."; }";
-	echo ".section-wrapper-orange {background: ".rgb_formatter($rgb_orange)."; }";
-	echo ".section-wrapper-orange .section-subheader { background: ".rgb_formatter($rgb_orange,-20)."; }";
-	echo ".section-wrapper-blue { background: ".rgb_formatter($rgb_blue)."; }";
+	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_blue,0)."; }";
+	echo ".section-wrapper-pink { background: ".rgb_formatter($rgb_gray)."; }";
+	echo ".section-wrapper-pink .section-subheader { background: ".rgb_formatter($rgb_blue,-20)."; }";
+	echo ".section-wrapper-yellow {background: ".rgb_formatter($rgb_gray)."; }";
+	echo ".section-wrapper-yellow .section-subheader { background: ".rgb_formatter($rgb_blue,-20)."; }";
+	echo ".section-wrapper-orange {background: ".rgb_formatter($rgb_gray)."; }";
+	echo ".section-wrapper-orange .section-subheader { background: ".rgb_formatter($rgb_blue,-20)."; }";
+	echo ".section-wrapper-blue { background: ".rgb_formatter($rgb_gray)."; }";
 	echo ".section-wrapper-blue .section-subheader { background: ".rgb_formatter($rgb_blue,-20)."; }";
 
 	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -80px auto 40px; border-radius: 50px 50px 50px 0; } ";
@@ -93,10 +94,10 @@ echo "<div class='header-bio width-wrapper'><b><center>שלום<br>Hello<br>こ�
 
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='header-he'>לוי מאיר<br>קלנסי</div>";
+// echo "<div class='header-he'>לוי מאיר<br>קלנסי</div>";
 echo "<div class='header-en'>Levi Meir<br>Clancy</div>";
-echo "<div class='header-ja'>レヴィ・メイア<br>クランシー</div>";
-echo "<div class='header-ku'>لیڤی مایر<br>کلنسی</div>";
+// echo "<div class='header-ja'>レヴィ・メイア<br>クランシー</div>";
+// echo "<div class='header-ku'>لیڤی مایر<br>کلنسی</div>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
@@ -144,9 +145,12 @@ echo "</div>";
 
 echo "<span class='body-spacing'></span>";
 
+echo "<a href=''><div class='link-bubble'>2025 &rarr; Qesher</div></a>"; // 
 echo "<a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 &rarr; TEDxDuhok</div></a>"; // 2017 Oct 10
+echo "<div class='link-bubble'>2021 &rarr; Book Café Exhibition</div>"; // 
 echo "<a href='https://www.youtube.com/watch?v=ptyGKlmVniE'><div class='link-bubble'>2021 &rarr; HARIF</div></a>"; // 2021 Mar 23
-echo "<a href='https://www.youtube.com/watch?v=BrDBsS1Sko0'><div class='link-bubble'>2019 &rarr; HARIF</div></a>"; // 
+echo "<div class='link-bubble'>2020 &rarr; Mr. Erbil Exhibition</div>"; // 
+echo "<a href='https://www.youtube.com/watch?v=BrDBsS1Sko0'><div class='link-bubble'>2019 &rarr; AMP Conf</div></a>"; // 
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
@@ -156,14 +160,21 @@ echo "<span class='body-spacing'></span>";
 // Publishing
 
 echo "<div class='section-wrapper section-wrapper-blue'>";
-echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Publishing credits</div></div>";
-echo "<div class='section-description width-wrapper'>I am...</div>";
+echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Publishing and production</div></div>";
+echo "<div class='section-description width-wrapper'>A selection of content I have produced or contributed to is below.</div>";
 echo "</div>";
 
 echo "<span class='body-spacing'></span>";
 
-echo "<a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 Dec 26 &rarr; Future of Jewish</div></a>";
-echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 Dec 25 &rarr; Jewish Unpacked</div></a>";
+echo "<a href=''><div class='link-bubble'>2024 &rarr; Roy Dahan</div></a>"; 
+echo "<a href=''><div class='link-bubble'>2024 &rarr; ICON SV</div></a>"; 
+echo "<a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 &rarr; Future of Jewish</div></a>"; // 2024 Dec 26
+echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 &rarr; Jewish Unpacked</div></a>"; // 2024 Dec 25
+echo "<a href=''><div class='link-bubble'>2020 &rarr; U Penn Asian Art Gallery</div></a>"; 
+echo "<a href=''><div class='link-bubble'>2019 &rarr; 100 Women Gallery</div></a>"; 
+echo "<a href=''><div class='link-bubble'>2018 &rarr; UNIDO</div></a>"; 
+echo "<a href=''><div class='link-bubble'>2019 &rarr; Kurdistan Region President</div></a>"; 
+echo "<a href=''><div class='link-bubble'>2018 &rarr; State of Israel MFA</div></a>"; 
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
