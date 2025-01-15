@@ -62,7 +62,7 @@ echo "<style>";
 	echo ".header-bio { font-family: Courier New; font-size: 140%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 	echo ".header-bio a { color: ".rgb_formatter($rgb_dark)."; font-weight: 700; } ";
 
-	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 80px 10px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
+	echo ".section-wrapper { postiion: relative; display: block; text-align: center; width: 100%; padding: 80px 10px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
 	echo ".section-wrapper a { color: ".rgb_formatter($rgb_light)."; }";
 	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,-5)."; }";
 	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
@@ -133,7 +133,7 @@ echo "<span class='body-spacing'></span>";
 // Disability services
 
 echo "<div class='section-wrapper section-wrapper-gray'>";
-echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Growth and compassion</div></div>";
+echo "<div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Growth and compassion</div>";
 echo "<div class='section-description width-wrapper'>";
 echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic activities, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
 echo "</div>";
