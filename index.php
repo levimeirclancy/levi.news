@@ -62,7 +62,7 @@ echo "<style>";
 	echo ".header-bio { font-family: Courier New; font-size: 140%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 	echo ".header-bio a { color: ".rgb_formatter($rgb_dark)."; font-weight: 700; } ";
 
-	echo ".section-wrapper { display: block; position: relative; text-align: center; width: 100%; padding: 80px 10px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
+	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 80px 10px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
 	echo ".section-wrapper a { color: ".rgb_formatter($rgb_light)."; }";
 	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,-5)."; }";
 	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
@@ -152,7 +152,7 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='section-wrapper section-wrapper-pink'>";
 echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Impactful outreach</div></div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
-echo "<img src='2025-01-15-img.jpg' class='section-img' />";
+echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
 echo "</div>";
 
 echo "<span class='body-spacing'></span>";
