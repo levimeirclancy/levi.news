@@ -78,7 +78,7 @@ echo "<body>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='header-bio width-wrapper'><b><center>שלום,<br>Hello,<br>こんにちは,<br>چۆنی,<br> my name is ...</center></b></div>";
+echo "<div class='header-bio width-wrapper'><b><center>שלום,<br>Hello,<br>こんにちは,<br>چۆنی,<br><br>My name is ...</center></b></div>";
 
 echo "<div class='header-he'>לוי מאיר<br>קלנסי</div>";
 echo "<div class='header-en'>Levi Meir<br>Clancy</div>";
