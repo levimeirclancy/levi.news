@@ -103,7 +103,7 @@ echo "<span class='body-spacing'></span>";
 
 // Intro summary
 
-echo "<div class='header-bio width-wrapper'>I am a support mentor, a marketing/comms producer, and an all-around hard worker. Send me an <a href='mailto:info@levi.news'>email</a> to be in touch.</div>";
+echo "<div class='header-bio width-wrapper'>I am a support mentor, a marketing/comms producer, and an all-around hard worker. Check out the links below for my currently active projects, and end me an <a href='mailto:info@levi.news'>email</a> to be in touch.</div>";
 
 echo "<span class='body-spacing'></span>";
 
@@ -112,7 +112,6 @@ echo "<a href='https://levi.pictures'><div class='link-bubble'>Photography and v
 echo "<a href='https://ziolicio.us'><div class='link-bubble'>Identity building &rarr; ziolicio.us</div></a>";
 echo "<a href='https://conversationpieces.rsvp'><div class='link-bubble'>Educational exhibition &rarr; conversationpieces.rsvp</div></a>";
 echo "<a href='https://blogs.timesofisrael.com/author/levi-clancy/'><div class='link-bubble'>Blog &rarr; Times of Israel</div></a>";
-echo "<a href='mailto:info@levi.news'><div class='link-bubble'>Email &rarr; info@levi.news</div></a>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
