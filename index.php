@@ -181,7 +181,7 @@ echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-description width-wrapper'>Check out these mentions/interviews to read about my advocacy and journey.</div>";
+echo "<div class='section-description width-wrapper'>Check out these mentions/interviews to learn more about my advocacy and journey.</div>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
