@@ -31,8 +31,8 @@ echo "<style>";
 	echo ".section-orange {background: rgba(".$rgb_orange.",1); }";
 	echo ".section-blue { background: rgba(".$rgb_blue.",1); }";
 
-	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 200%; display: inline-block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; padding: 15px 20px; margin: -50px auto; box-shadow: -5px -5px 20px 30px rgba(30,30,30,0.3); } ";
-	echo ".section-description { font-family: Verdana; font-size: 120%; display: inline-block; margin: 100px 0 0 0; font-weight: 400; text-align: left; } ";
+	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 200%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; padding: 15px 20px; margin: -100px auto; box-shadow: -5px -5px 20px 0 rgba(30,30,30,0.3); } ";
+	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 100px auto 0 0; font-weight: 400; text-align: left; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
 
