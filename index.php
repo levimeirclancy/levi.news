@@ -71,7 +71,7 @@ echo "<style>";
 	echo ".section-wrapper-yellow .section-subheader { background: ".rgb_formatter($rgb_gray,-35)."; }";
 	echo ".section-wrapper-orange {background: ".rgb_formatter($rgb_gray,-45)."; }";
 	echo ".section-wrapper-orange .section-subheader { background: ".rgb_formatter($rgb_gray,-50)."; }";
-	echo ".section-wrapper-blue { background: ".rgb_formatter($rgb_gray-60)."; }";
+	echo ".section-wrapper-blue { background: ".rgb_formatter($rgb_gray,-60)."; }";
 	echo ".section-wrapper-blue .section-subheader { background: ".rgb_formatter($rgb_gray,-65)."; }";
 
 	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -80px auto 40px; border: 3px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 0; } ";
