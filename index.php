@@ -8,23 +8,29 @@ $rgb_orange = [ 255, 127 ,80 ];
 $rgb_yellow = [ 250, 180, 0 ];
 $rgb_blue = [ 0, 155, 220 ];
 
-function rgb_formatter($array, $modifier=0) {
+function rgb_formatter($rgb_array, $modifier=0) {
 
 	$array_formatted = [];
 
-	if ( !(is_int($modifier)) ): return [ 0, 0, 0] ; endif;
+	if ( !(is_int($modifier)) ): return "0,0,0"; endif;
 
-	foreach ($array as $array_result) {
-		if ( !(is_int($array_result)) ): return [ 0, 0, 0] ; endif;
+	foreach ($rgb_array as $array_result):
+
+		if ( !(is_int($array_result)) ): return "0,0,0"; endif;
+
 		$array_result += $modifier;
+
 		if ($array_result > 255): $array_result = 255; endif;
 		if ($array_result < 0): $array_result = 0; endif;
+
+		$array_formatted[] = $array_result;
 		if ( count($array_formatted) >= 3 ): break; endif;
+
 		endforeach;
 
-	if ( count($array_formatted) !== 3 ): return [ 0, 0, 0] ; endif;
+	if ( count($array_formatted) !== 3 ): return "0,0,0"; endif;
 
-	return implode(",",$array_formatted);
+	return implode(",", $array_formatted);
 
 	}
 
