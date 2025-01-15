@@ -58,7 +58,7 @@ echo "<style>";
 	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: ".rgb_formatter($rgb_darktext,0,0.55)."; line-height: 1; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
-	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 0 10px 80px; margin: 60px 0 70px 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
+	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 10px 10px 80px; margin: 60px 0 70px 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
 	echo ".section-wrapper a { color: #f0f0f0; }";
 	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,0)."; }";
 	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
@@ -71,7 +71,7 @@ echo "<style>";
 	echo ".section-wrapper-blue { background: ".rgb_formatter($rgb_blue)."; }";
 	echo ".section-wrapper-blue .section-subheader { background: ".rgb_formatter($rgb_blue,-20)."; }";
 
-	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -90px auto 40px; border-radius: 50px 50px 50px 0; } ";
+	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -80px auto 40px; border-radius: 50px 50px 50px 0; } ";
 	echo ".section-subheader-rotate-ccw { transform: rotate(-5deg); }";
 	echo ".section-subheader-rotate-cw { transform: rotate(5deg); }";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0 auto; font-weight: 400; text-align: left; } ";
