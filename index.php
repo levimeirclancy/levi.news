@@ -41,7 +41,7 @@ echo "<style>";
 	echo "body { font-family: Courier New; background: #f0f0f0; color: #222; line-height: 1.5; margin: 0; padding: 0; text-align: center; } ";
 
 	echo ".body-spacing { display: block; height: 50px; } ";
-	echo ".width-wrapper { display: block; max-width: 700px; margin: 50px auto;} ";
+	echo ".width-wrapper { display: block; max-width: 700px;} ";
 
 	echo ".header-he, .header-en, .header-ja, .header-ku {  margin: 30px; font-family: Courier New; font-weight: 700; line-height: 0.9; display: inline-block;  } ";
 	echo ".header-he { transform: rotate(-12deg); font-size: 260%;  color: rgba(0,0,0,1);} ";
