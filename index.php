@@ -70,6 +70,7 @@ echo "<a href='https://blogs.timesofisrael.com/author/levi-clancy/'><div class='
 echo "<a href='mailto:info@levi.news'><div class='link-bubble'>Email &rarr; info@levi.news</div></a>";
 
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 // Disability services
 
@@ -84,6 +85,7 @@ echo "<span class='body-spacing'></span>";
 
 echo "<a href='http://linkedin.com/in/levimeirclancy/'><div class='link-bubble'>LinkedIn</div></a>";
 
+echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
 // Public speaking
@@ -100,6 +102,7 @@ echo "<a href='https://www.youtube.com/watch?v=ptyGKlmVniE'><div class='link-bub
 echo "<a href='https://www.youtube.com/watch?v=BrDBsS1Sko0'><div class='link-bubble'>2019 &rarr; HARIF</div></a>"; // 
 
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 // Publishing
 
@@ -113,6 +116,7 @@ echo "<span class='body-spacing'></span>";
 echo "<a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 Dec 26 &rarr; Future of Jewish</div></a>";
 echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 Dec 25 &rarr; Jewish Unpacked</div></a>";
 
+echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
 // Footer and coverage
