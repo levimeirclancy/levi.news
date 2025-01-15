@@ -24,15 +24,15 @@ echo "<style>";
 	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: rgba(150,150,150,1); line-height: 1; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
-	echo ".section-info { display: block; text-align: left; width: 100%; padding: 50px 10px; margin: 30px 0 30px 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
+	echo ".section-info { display: block; text-align: center; width: 100%; padding: 50px 10px; margin: 30px 0 30px 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
 	echo ".section-gray { background: rgba(".$rgb_gray.",1); }";
 	echo ".section-pink { background: rgba(".$rgb_pink.",1); }";
 	echo ".section-yellow {background: rgba(".$rgb_yellow.",1); }";
 	echo ".section-orange {background: rgba(".$rgb_orange.",1); }";
 	echo ".section-blue { background: rgba(".$rgb_blue.",1); }";
 
-	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 200%; display: inline-block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; max-width: 700px; margin: -50px auto; box-shadow: -5px -5px 20px -10px rgba(30,30,30,0.3); } ";
-	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 150px 0 0 0; font-weight: 400; } ";
+	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 200%; display: inline-block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; padding: 15px 20px; margin: -50px auto; box-shadow: -5px -5px 20px 30px rgba(30,30,30,0.3); } ";
+	echo ".section-description { font-family: Verdana; font-size: 120%; display: inline-block; margin: 100px 0 0 0; font-weight: 400; text-align: left; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
 
