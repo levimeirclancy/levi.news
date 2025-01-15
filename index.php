@@ -14,7 +14,8 @@ function rgb_formatter($rgb_array, $modifier=0, $opacity=1) {
 
 	$array_formatted = [];
 
-	if ( !(is_int($modifier)) || ( $opacity > 1 ) || ( $opacity < 1 ) )
+	if ( !(is_int($modifier)) || ( $opacity > 1 ) || ( $opacity < 1 ) ):
+		
 		$array_formatted = [ 0,0,0 ];
 	else:
 		foreach ($rgb_array as $array_result):
