@@ -65,7 +65,7 @@ echo "<span class='body-spacing'></span>";
 // echo "<a href='https://levi.news'><div class='link-bubble'>About &rarr; levi.news</div></a>";
 echo "<a href='https://levi.pictures'><div class='link-bubble'>Photography and videography &rarr; levi.pictures</div></a>";
 echo "<a href='https://ziolicio.us'><div class='link-bubble'>Identity building &rarr; ziolicio.us</div></a>";
-echo "<a href='https://conversationpieces.rsvp'><div class='link-bubble'>Education resources &rarr; conversationpieces.rsvp</div></a>";
+echo "<a href='https://conversationpieces.rsvp'><div class='link-bubble'>Educational exhibition &rarr; conversationpieces.rsvp</div></a>";
 echo "<a href='https://blogs.timesofisrael.com/author/levi-clancy/'><div class='link-bubble'>Blog &rarr; Times of Israel</div></a>";
 echo "<a href='mailto:info@levi.news'><div class='link-bubble'>Email &rarr; info@levi.news</div></a>";
 
@@ -77,6 +77,7 @@ echo "<div class='section-info section-orange'>";
 echo "<div class='section-subheader width-wrapper'>Growth and Compassion</div>";
 echo "<div class='section-description width-wrapper'>";
 echo "As a <b>direct support professional</b>, I support adults with disabilities in building independence and community. Through community-level and one-on-one activities, my role helps disabled adults achieve growth and independence through strategic challenges, personalized coaching, and creative experiences tailored to their unique intellectual disabilities. My work is set in a neurodiverse <q>urban village</q> of disabled and non-disabled adults based on Kibbutz Kishorit, an innovative Israeli program rooted in Jewish values.";
+echo "</div>";
 echo "</div>";
 
 echo "<span class='body-spacing'></span>";
