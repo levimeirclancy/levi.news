@@ -58,7 +58,7 @@ echo "<style>";
 	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: ".rgb_formatter($rgb_darktext,0,0.55)."; line-height: 1; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
-	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 10px 10px 80px; margin: 60px 0 70px 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
+	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 10px 10px 80px; margin: 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
 	echo ".section-wrapper a { color: #f0f0f0; }";
 	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,0)."; }";
 	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
@@ -115,6 +115,7 @@ echo "<a href='mailto:info@levi.news'><div class='link-bubble'>Email &rarr; info
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 // Disability services
 
@@ -125,8 +126,11 @@ echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities t
 echo "</div>";
 echo "</div>";
 
+echo "<span class='body-spacing'></span>";
+
 echo "<a href='http://linkedin.com/in/levimeirclancy/'><div class='link-bubble'>LinkedIn</div></a>";
 
+echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
@@ -137,12 +141,16 @@ echo "<div class='width-wrapper'><div class='section-subheader section-subheader
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "</div>";
 
+echo "<span class='body-spacing'></span>";
+
 echo "<a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 &rarr; TEDxDuhok</div></a>"; // 2017 Oct 10
 echo "<a href='https://www.youtube.com/watch?v=ptyGKlmVniE'><div class='link-bubble'>2021 &rarr; HARIF</div></a>"; // 2021 Mar 23
 echo "<a href='https://www.youtube.com/watch?v=BrDBsS1Sko0'><div class='link-bubble'>2019 &rarr; HARIF</div></a>"; // 
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+
 
 // Publishing
 
@@ -151,9 +159,13 @@ echo "<div class='width-wrapper'><div class='section-subheader section-subheader
 echo "<div class='section-description width-wrapper'>I am...</div>";
 echo "</div>";
 
+echo "<span class='body-spacing'></span>";
+
 echo "<a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 Dec 26 &rarr; Future of Jewish</div></a>";
 echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 Dec 25 &rarr; Jewish Unpacked</div></a>";
 
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
@@ -161,18 +173,14 @@ echo "<span class='body-spacing'></span>";
 
 // echo " <a href='___'>___ &rarr; ___</div></a>";
 
-echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
-
 echo "<div class='section-wrapper section-wrapper-gray'>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
+
+echo "<div class='section-description width-wrapper'>Take a look at press and interviews to learn more about me. Or send an <a href='mailto:info@levi.news'>email</a> to get in touch.</div>";
+
 echo "<span class='body-spacing'></span>";
-
-echo "<div class='section-description width-wrapper'>Take a look at some press and interviews to learn more about me, or get in touch via <a href='mailto:info@levi.news'>email</a> to talk directly.</div>";
-
 echo "<span class='body-spacing'></span>";
 
 echo "<a href='https://birthrightisrael.foundation/blog/meet-photographer-and-la-birthright-israel-alum-levi-meir-clancy/'><div class='link-bubble'>2022 Jun 16 &rarr; Taglit-Birthright</div></a>";
