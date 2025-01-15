@@ -76,7 +76,7 @@ echo "<span class='body-spacing'></span>";
 
 // Disability services
 
-echo "<div class='section-wrapper-info section-wrapper-orange'>";
+echo "<div class='section-wrapper section-wrapper-orange'>";
 echo "<div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Growth and Compassion</div>";
 echo "<div class='section-description width-wrapper'>";
 echo "As a <b>direct support professional</b>, I empower adults with cognitive disabilities to build independence and community through strategic challenges, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
@@ -92,7 +92,7 @@ echo "<span class='body-spacing'></span>";
 
 // Public speaking
 
-echo "<div class='section-wrapper-info section-wrapper-pink'>";
+echo "<div class='section-wrapper section-wrapper-pink'>";
 echo "<div class='section-subheader section-subheader-rotate-cw width-wrapper'>Impactful outreach</div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "</div>";
@@ -108,7 +108,7 @@ echo "<span class='body-spacing'></span>";
 
 // Publishing
 
-echo "<div class='section-wrapper-info section-wrapper-blue'>";
+echo "<div class='section-wrapper section-wrapper-blue'>";
 echo "<div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Publishing credits</div>";
 echo "<div class='section-description width-wrapper'>I am...</div>";
 echo "</div>";
@@ -129,7 +129,7 @@ echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-wrapper-info section-wrapper-gray'>";
+echo "<div class='section-wrapper section-wrapper-gray'>";
 echo "<div class='section-subheader width-wrapper'>Get to know me</div>";
 echo "<div class='section-description width-wrapper'>Send me an <a href='mailto:info@levi.news'>email</a> to be in touch. To read more about me, take a look at some press and interviews from childhood to adulthood.</div>";
 echo "</div>";
