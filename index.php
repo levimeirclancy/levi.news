@@ -177,8 +177,9 @@ echo "<div class='section-wrapper section-wrapper-gray'>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-description width-wrapper'>Take a look at press and interviews to learn more about me..</div>";
+echo "<div class='section-description'>Take a look at press and interviews to learn more about my advocacy and history.</div>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
@@ -189,10 +190,10 @@ echo "<a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-muse
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 echo "<a href='mailto:info@levi.news'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Email me</div></a>";
 
-echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
 echo "</div>";
