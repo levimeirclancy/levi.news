@@ -50,7 +50,7 @@ echo "<style>";
 	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: rgba(150,150,150,1); line-height: 1; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
-	echo ".section-wrapper { display: block; text-align: left; width: 100%; padding: 0 10px 80px; margin: 30px 0 50px 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
+	echo ".section-wrapper { display: block; text-align: left; width: 100%; padding: 0 10px 80px; margin: 30px 0 70px 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
 	echo ".section-wrapper a { color: #f0f0f0; }";
 	echo ".section-wrapper-gray { background: rgba(".rgb_formatter($rgb_gray).",1); }";
 	echo ".section-wrapper-gray .section-subheader { background: rgba(".rgb_formatter($rgb_gray,0).",1); }";
@@ -93,7 +93,7 @@ echo "<span class='body-spacing'></span>";
 
 // Intro summary
 
-echo "<div class='header-bio width-wrapper'>I am a support mentor, a media generalist, and an all-around hard worker.</div>";
+echo "<div class='header-bio width-wrapper'>I am a support mentor, a comms and marketing generalist, and an all-around hard worker.</div>";
 
 echo "<span class='body-spacing'></span>";
 
@@ -117,8 +117,6 @@ echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities t
 echo "</div>";
 echo "</div>";
 
-echo "<span class='body-spacing'></span>";
-
 echo "<a href='http://linkedin.com/in/levimeirclancy/'><div class='link-bubble'>LinkedIn</div></a>";
 
 echo "<span class='body-spacing'></span>";
@@ -130,8 +128,6 @@ echo "<div class='section-wrapper section-wrapper-pink'>";
 echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Impactful outreach</div></div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "</div>";
-
-echo "<span class='body-spacing'></span>";
 
 echo "<a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 &rarr; TEDxDuhok</div></a>"; // 2017 Oct 10
 echo "<a href='https://www.youtube.com/watch?v=ptyGKlmVniE'><div class='link-bubble'>2021 &rarr; HARIF</div></a>"; // 2021 Mar 23
@@ -146,8 +142,6 @@ echo "<div class='section-wrapper section-wrapper-blue'>";
 echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Publishing credits</div></div>";
 echo "<div class='section-description width-wrapper'>I am...</div>";
 echo "</div>";
-
-echo "<span class='body-spacing'></span>";
 
 echo "<a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 Dec 26 &rarr; Future of Jewish</div></a>";
 echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 Dec 25 &rarr; Jewish Unpacked</div></a>";
