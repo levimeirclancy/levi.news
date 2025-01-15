@@ -93,7 +93,7 @@ echo "<body>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='header-bio width-wrapper'><b><center>שלום<br>こんにちは<br>چۆنی<br><br>Hello, my name is ...</center></b></div>";
+echo "<div class='header-bio width-wrapper'><b><center>שלום<br>こんにちは<br>چۆنی<br><br>Hello, my name is</center></b></div>";
 
 // echo "<span class='body-spacing'></span>";
 
@@ -110,10 +110,11 @@ echo "<span class='body-spacing'></span>";
 echo "<img src='2025-01-15-img.jpg' class='header-img' />";
 
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 // Intro summary
 
-echo "<div class='header-bio width-wrapper'>I am a support mentor, a marketing/comms producer, and an all-around hard worker. Check out the links below for my currently active projects. <a href='mailto:info@levi.news'>Email me</a> to be in touch.</div>";
+echo "<div class='header-bio width-wrapper'>I am a support mentor, a marketing/comms producer, and an all-around hard working guy. Check out the links below for my currently active projects. <a href='mailto:info@levi.news'>Email me</a> to be in touch.</div>";
 
 echo "<span class='body-spacing'></span>";
 
