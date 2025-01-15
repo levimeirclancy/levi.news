@@ -206,7 +206,7 @@ echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<a href='mailto:info@levi.news'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Email me</div></a>";
+echo "<a href='mailto:info@levi.news'><div class='footer-button section-subheader-rotate-ccw width-wrapper'>Email me</div></a>";
 
 echo "<span class='body-spacing'></span>";
 
