@@ -189,7 +189,6 @@ echo "<a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-muse
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
 
 echo "</div>";
 
