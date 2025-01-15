@@ -178,7 +178,7 @@ echo "<div class='section-wrapper section-wrapper-gray'>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-description width-wrapper'>Take a look at press and interviews to learn more about me. Or send an <a href='mailto:info@levi.news'>email</a> to get in touch.</div>";
+echo "<div class='section-description width-wrapper'>Take a look at press and interviews to learn more about me..</div>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
@@ -186,6 +186,11 @@ echo "<span class='body-spacing'></span>";
 echo "<a href='https://birthrightisrael.foundation/blog/meet-photographer-and-la-birthright-israel-alum-levi-meir-clancy/'><div class='link-bubble'>2022 Jun 16 &rarr; Taglit-Birthright</div></a>";
 echo "<a href='https://forward.com/news/482748/founder-of-jewish-museum-expelled-from-iraqi-kurdistan-levi-meir-clancy/'><div class='link-bubble'>2022 Feb 20 &rarr; The Forward</div></a>";
 echo "<a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-museum-celebrates-the-regions-jewish-history/'><div class='link-bubble'>2021 Jul 20 &rarr; The Forward</div></a>";
+
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+
+echo "<div class='section-description width-wrapper'>Send an <a href='mailto:info@levi.news'>email</a> to get in touch.</div>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
