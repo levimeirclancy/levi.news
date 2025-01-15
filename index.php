@@ -31,7 +31,9 @@ echo "<style>";
 	echo ".section-orange {background: rgba(".$rgb_orange.",1); }";
 	echo ".section-blue { background: rgba(".$rgb_blue.",1); }";
 
-	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 200%; display: inline-block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -70px auto 50px; box-shadow: -5px -5px 20px 0 rgba(30,30,30,0.3); } ";
+	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 200%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -75px auto 50px; box-shadow: -5px -5px 15px 0 rgba(30,30,30,0.3); } ";
+	echo ".section-subheader-rotate-ccw { transform: rotate(-5deg); }";
+	echo ".section-subheader-rotate-cw { transform: rotate(-5deg); }";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0 auto; font-weight: 400; text-align: left; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
@@ -75,7 +77,7 @@ echo "<span class='body-spacing'></span>";
 // Disability services
 
 echo "<div class='section-info section-orange'>";
-echo "<div class='section-subheader width-wrapper'>Growth and Compassion</div>";
+echo "<div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Growth and Compassion</div>";
 echo "<div class='section-description width-wrapper'>";
 echo "As a <b>direct support professional</b>, I empower adults with cognitive disabilities to build independence and community through strategic challenges, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
 echo "</div>";
@@ -91,7 +93,7 @@ echo "<span class='body-spacing'></span>";
 // Public speaking
 
 echo "<div class='section-info section-pink'>";
-echo "<div class='section-subheader width-wrapper'>Impactful outreach</div>";
+echo "<div class='section-subheader section-subheader-rotate-cw width-wrapper'>Impactful outreach</div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "</div>";
 
@@ -107,7 +109,7 @@ echo "<span class='body-spacing'></span>";
 // Publishing
 
 echo "<div class='section-info section-blue'>";
-echo "<div class='section-subheader width-wrapper'>Publishing credits</div>";
+echo "<div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Publishing credits</div>";
 echo "<div class='section-description width-wrapper'>I am...</div>";
 echo "</div>";
 
