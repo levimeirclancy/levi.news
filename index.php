@@ -190,7 +190,7 @@ echo "<a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-muse
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-description width-wrapper'>Send an <a href='mailto:info@levi.news'>email</a> to get in touch.</div>";
+echo "<a href='mailto:info@levi.news'><div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Email me</div></div></a>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
