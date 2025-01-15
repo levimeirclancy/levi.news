@@ -111,20 +111,7 @@ echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-han
 
 echo "<span class='body-spacing'></span>";
 
-// Coverage
-
-echo "<div class='section-info section-yellow'>";
-echo "<div class='section-subheader width-wrapper'>Press</div>";
-echo "<div class='section-description width-wrapper'>Levi Meir has been featured in media coverage from childhood to adulthood, highlighting his work, advocacy, and achievements.</div>";
-echo "</div>";
-
-echo "<a href='https://birthrightisrael.foundation/blog/meet-photographer-and-la-birthright-israel-alum-levi-meir-clancy/'><div class='link-bubble'>2022 Jun 16 &rarr; Taglit-Birthright</div></a>";
-echo "<a href='https://forward.com/news/482748/founder-of-jewish-museum-expelled-from-iraqi-kurdistan-levi-meir-clancy/'><div class='link-bubble'>2022 Feb 20 &rarr; The Forward</div></a>";
-echo "<a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-museum-celebrates-the-regions-jewish-history/'><div class='link-bubble'>2021 Jul 20 &rarr; The Forward</div></a>";
-
-echo "<span class='body-spacing'></span>";
-
-// Footer
+// Footer and coverage
 
 // echo " <a href='___'>___ &rarr; ___</div></a>";
 
@@ -134,8 +121,16 @@ echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-info section-gray'>";
 echo "<div class='section-subheader width-wrapper'>Get to know me</div>";
-echo "<div class='section-description width-wrapper'>Send me an <a href='mailto:info@levi.news'>email</a> to be in touch.</div>";
+echo "<div class='section-description width-wrapper'>Send me an <a href='mailto:info@levi.news'>email</a> to be in touch. To read more about me, take a look at some press and interviews from childhood to adulthood.</div>";
 echo "</div>";
+
+echo "<a href='https://birthrightisrael.foundation/blog/meet-photographer-and-la-birthright-israel-alum-levi-meir-clancy/'><div class='link-bubble'>2022 Jun 16 &rarr; Taglit-Birthright</div></a>";
+echo "<a href='https://forward.com/news/482748/founder-of-jewish-museum-expelled-from-iraqi-kurdistan-levi-meir-clancy/'><div class='link-bubble'>2022 Feb 20 &rarr; The Forward</div></a>";
+echo "<a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-museum-celebrates-the-regions-jewish-history/'><div class='link-bubble'>2021 Jul 20 &rarr; The Forward</div></a>";
+
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 echo "</body>";
 echo "</html>";
