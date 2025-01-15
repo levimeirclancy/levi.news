@@ -3,7 +3,8 @@
 include_once("index-content.php");
 
 $rgb_background = [ 240, 240, 240 ];
-$rgb_darktext = [ 50, 50, 50 ];
+$rgb_dark = [ 50, 50, 50 ];
+$rgb_light = [ 240, 240, 240 ];
 $rgb_gray = [ 55, 55, 55 ];
 $rgb_pink = [ 245, 100, 175 ];
 $rgb_orange = [ 255, 127 ,80 ];
@@ -46,20 +47,21 @@ echo "<!DOCTYPE html>";
 echo "<html>";
 echo "<head>";
 echo "<style>";
-	echo "body { font-family: Courier New; background: ".rgb_formatter($rgb_background)."; color: #222; line-height: 1.5; margin: 0; padding: 0; text-align: center; } ";
+	echo "body { font-family: Courier New; background: ".rgb_formatter($rgb_background)."; color: ".rgb_formatter($rgb_dark)."; line-height: 1.5; margin: 0; padding: 0; text-align: center; } ";
 
 	echo ".body-spacing { display: block; height: 50px; } ";
 	echo ".width-wrapper { display: block; margin: 0 auto; max-width: 700px; text-align: left; } ";
 
 	echo ".header-he, .header-en, .header-ja, .header-ku {  margin: 30px; font-family: Courier New; font-weight: 700; line-height: 0.9; display: inline-block;  } ";
-	echo ".header-he { transform: rotate(-12deg); font-size: 260%; color: ".rgb_formatter($rgb_darktext).";} ";
-	echo ".header-en { transform: rotate(9deg);font-size: 250%; margin: color: ".rgb_formatter($rgb_darktext,0,0.85)."; } ";
-	echo ".header-ja { transform: rotate(-12deg); font-size: 220%; color: ".rgb_formatter($rgb_darktext,0,0.7)."; line-height: 1; } ";
-	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: ".rgb_formatter($rgb_darktext,0,0.55)."; line-height: 1; } ";
+	echo ".header-he { transform: rotate(-12deg); font-size: 260%; color: ".rgb_formatter($rgb_dark).";} ";
+	echo ".header-en { transform: rotate(9deg);font-size: 250%; margin: color: ".rgb_formatter($rgb_dark,0,0.85)."; } ";
+	echo ".header-ja { transform: rotate(-12deg); font-size: 220%; color: ".rgb_formatter($rgb_dark,0,0.7)."; line-height: 1; } ";
+	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: ".rgb_formatter($rgb_dark,0,0.55)."; line-height: 1; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
+	echo ".header-bio a { color: ".rgb_formatter($rgb_dark)."; } ";
 
-	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 10px 10px 80px; margin: 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
-	echo ".section-wrapper a { color: #f0f0f0; }";
+	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 10px 10px 80px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
+	echo ".section-wrapper a { color: ".rgb_formatter($rgb_light)."; }";
 	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,0)."; }";
 	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
 	echo ".section-wrapper-pink { background: ".rgb_formatter($rgb_pink)."; }";
