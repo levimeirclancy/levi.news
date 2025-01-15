@@ -45,7 +45,7 @@ echo "<body>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='header-bio width-wrapper'>My name is ...</div>";
+echo "<div class='header-bio width-wrapper'><b><center>My name is ...</center></b></div>";
 
 echo "<span class='body-spacing'></span>";
 
