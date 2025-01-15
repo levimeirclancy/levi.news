@@ -81,17 +81,21 @@ echo "<span class='body-spacing'></span>";
 
 echo "<div class='header-bio width-wrapper'><b><center>שלום<br>Hello<br>こんにちは<br>چۆنی<br><br>My name is ...</center></b></div>";
 
+echo "<span class='body-spacing'></span>";
+
 echo "<div class='header-he'>לוי מאיר<br>קלנסי</div>";
 echo "<div class='header-en'>Levi Meir<br>Clancy</div>";
 echo "<div class='header-ja'>レヴィ・メイア<br>クランシー</div>";
 echo "<div class='header-ku'>لیڤی مایر<br>کلنسی</div>";
 
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 // Intro summary
 
 echo "<div class='header-bio width-wrapper'>I am a direct support professional, a media generalist, and an all-around hard worker.</div>";
 
+echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
 // echo "<a href='https://levi.news'><div class='link-bubble'>About &rarr; levi.news</div></a>";
@@ -123,7 +127,7 @@ echo "<span class='body-spacing'></span>";
 // Public speaking
 
 echo "<div class='section-wrapper section-wrapper-pink'>";
-echo "<div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Impactful outreach</div>";
+echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Impactful outreach</div></div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "</div>";
 
@@ -139,7 +143,7 @@ echo "<span class='body-spacing'></span>";
 // Publishing
 
 echo "<div class='section-wrapper section-wrapper-blue'>";
-echo "<div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Publishing credits</div>";
+echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Publishing credits</div></div>";
 echo "<div class='section-description width-wrapper'>I am...</div>";
 echo "</div>";
 
@@ -160,7 +164,7 @@ echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-wrapper section-wrapper-gray'><br>";
-echo "<div class='section-subheader width-wrapper'>Get to know me</div>";
+echo "<div class='width-wrapper'><div class='section-subheader width-wrapper'>Get to know me</div></div>";
 echo "<div class='section-description width-wrapper'>Take a look at some press and interviews to learn more about me, or get in touch via <a href='mailto:info@levi.news'>email</a> to talk directly.</div>";
 echo "</div>";
 
