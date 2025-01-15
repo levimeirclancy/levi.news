@@ -2,35 +2,42 @@
 
 include_once("index-content.php");
 
+$rgb_background = [ 240, 240, 240 ];
+$rgb_darktext = [ 50, 50, 50 ];
 $rgb_gray = [ 55, 55, 55 ];
 $rgb_pink = [ 245, 100, 175 ];
 $rgb_orange = [ 255, 127 ,80 ];
 $rgb_yellow = [ 250, 180, 0 ];
 $rgb_blue = [ 0, 155, 220 ];
 
-function rgb_formatter($rgb_array, $modifier=0) {
+function rgb_formatter($rgb_array, $modifier=0, $opacity=1) {
 
 	$array_formatted = [];
 
-	if ( !(is_int($modifier)) ): return "0,0,0"; endif;
+	if ( !(is_int($modifier)) || ( $opacity > 1 ) || ( $opacity < 1 ) )
+		$array_formatted = [ 0,0,0 ];
+	else:
+		foreach ($rgb_array as $array_result):
 
-	foreach ($rgb_array as $array_result):
+			if ( !(is_int($array_result)) ): $array_formatted = [ 0,0,0 ]; break; endif;
+	
+			$array_result += $modifier;
+	
+			if ($array_result > 255): $array_result = 255; endif;
+			if ($array_result < 0): $array_result = 0; endif;
+	
+			$array_formatted[] = $array_result;
+			if ( count($array_formatted) >= 3 ): break; endif;
+	
+			endforeach;
 
-		if ( !(is_int($array_result)) ): return "0,0,0"; endif;
+		endif;
 
-		$array_result += $modifier;
+	if ( count($array_formatted) !== 3 ): $array_formatted = [ 0,0,0 ]; endif;
 
-		if ($array_result > 255): $array_result = 255; endif;
-		if ($array_result < 0): $array_result = 0; endif;
+	$array_formatted[] = $opacity;
 
-		$array_formatted[] = $array_result;
-		if ( count($array_formatted) >= 3 ): break; endif;
-
-		endforeach;
-
-	if ( count($array_formatted) !== 3 ): return "0,0,0"; endif;
-
-	return implode(",", $array_formatted);
+	return "rgba(".implode(",", $array_formatted).")";
 
 	}
 
@@ -38,37 +45,37 @@ echo "<!DOCTYPE html>";
 echo "<html>";
 echo "<head>";
 echo "<style>";
-	echo "body { font-family: Courier New; background: #f0f0f0; color: #222; line-height: 1.5; margin: 0; padding: 0; text-align: center; } ";
+	echo "body { font-family: Courier New; background: ".rgb_formatter($rgb_background)."; color: #222; line-height: 1.5; margin: 0; padding: 0; text-align: center; } ";
 
 	echo ".body-spacing { display: block; height: 50px; } ";
 	echo ".width-wrapper { display: block; margin: 0 auto; max-width: 700px;} ";
 
 	echo ".header-he, .header-en, .header-ja, .header-ku {  margin: 30px; font-family: Courier New; font-weight: 700; line-height: 0.9; display: inline-block;  } ";
-	echo ".header-he { transform: rotate(-12deg); font-size: 260%;  color: rgba(0,0,0,1);} ";
-	echo ".header-en { transform: rotate(9deg);font-size: 250%; margin: color: rgba(50,50,50,1); } ";
-	echo ".header-ja { transform: rotate(-12deg); font-size: 220%; color: rgba(100,100,100,1); line-height: 1; } ";
-	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: rgba(150,150,150,1); line-height: 1; } ";
+	echo ".header-he { transform: rotate(-12deg); font-size: 260%; color: ".rgb_formatter($rgb_darktext).";} ";
+	echo ".header-en { transform: rotate(9deg);font-size: 250%; margin: color: ".rgb_formatter($rgb_darktext,0,0.85)."; } ";
+	echo ".header-ja { transform: rotate(-12deg); font-size: 220%; color: ".rgb_formatter($rgb_darktext,0,0.7)."; line-height: 1; } ";
+	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: ".rgb_formatter($rgb_darktext,0,0.55)."; line-height: 1; } ";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 
 	echo ".section-wrapper { display: block; text-align: left; width: 100%; padding: 0 10px 80px; margin: 60px 0 70px 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
 	echo ".section-wrapper a { color: #f0f0f0; }";
-	echo ".section-wrapper-gray { background: rgba(".rgb_formatter($rgb_gray).",1); }";
-	echo ".section-wrapper-gray .section-subheader { background: rgba(".rgb_formatter($rgb_gray,0).",1); }";
-	echo ".section-wrapper-pink { background: rgba(".rgb_formatter($rgb_pink).",1); }";
-	echo ".section-wrapper-pink .section-subheader { background: rgba(".rgb_formatter($rgb_pink,-20).",1); }";
+	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,0)."; }";
+	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
+	echo ".section-wrapper-pink { background: ".rgb_formatter($rgb_pink)."; }";
+	echo ".section-wrapper-pink .section-subheader { background: ".rgb_formatter($rgb_pink,-20)."; }";
 	echo ".section-wrapper-yellow {background: rgba(".rgb_formatter($rgb_yellow).",1); }";
-	echo ".section-wrapper-yellow .section-subheader { background: rgba(".rgb_formatter($rgb_yellow,-20).",1); }";
+	echo ".section-wrapper-yellow .section-subheader { background: ".rgb_formatter($rgb_yellow,-20)."; }";
 	echo ".section-wrapper-orange {background: rgba(".rgb_formatter($rgb_orange).",1); }";
-	echo ".section-wrapper-orange .section-subheader { background: rgba(".rgb_formatter($rgb_orange,-20).",1); }";
+	echo ".section-wrapper-orange .section-subheader { background: ".rgb_formatter($rgb_orange,-20)."; }";
 	echo ".section-wrapper-blue { background: rgba(".rgb_formatter($rgb_blue).",1); }";
-	echo ".section-wrapper-blue .section-subheader { background: rgba(".rgb_formatter($rgb_blue,-20).",1); }";
+	echo ".section-wrapper-blue .section-subheader { background: ".rgb_formatter($rgb_blue,-20)."; }";
 
 	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -90px auto 40px; border-radius: 50px 50px 50px 0; } ";
 	echo ".section-subheader-rotate-ccw { transform: rotate(-5deg); }";
 	echo ".section-subheader-rotate-cw { transform: rotate(5deg); }";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0 auto; font-weight: 400; text-align: left; } ";
 
-	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
+	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); background: ".rgb_formatter($rgb_background)."; color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
 
 	echo "</style>";
 echo "</head>";
@@ -158,9 +165,7 @@ echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-wrapper section-wrapper-gray'><br>";
-echo "<div class='width-wrapper'><div class='section-subheader width-wrapper'>Get to know me</div></div>";
 echo "<div class='section-description width-wrapper'>Take a look at some press and interviews to learn more about me, or get in touch via <a href='mailto:info@levi.news'>email</a> to talk directly.</div>";
-echo "</div>";
 
 echo "<span class='body-spacing'></span>";
 
@@ -170,6 +175,9 @@ echo "<a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-muse
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+
+echo "</div>";
 
 echo "</body>";
 echo "</html>";
