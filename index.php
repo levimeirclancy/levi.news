@@ -72,18 +72,14 @@ echo "<style>";
 	echo ".section-wrapper-yellow .section-subheader { background: ".rgb_formatter($rgb_gray,-35)."; }";
 	echo ".section-wrapper-orange {background: ".rgb_formatter($rgb_gray,-45)."; }";
 	echo ".section-wrapper-orange .section-subheader { background: ".rgb_formatter($rgb_gray,-50)."; }";
-	echo ".section-wrapper-blue { background: ".rgb_formatter($rgb_gray,-60)."; }";
-	echo ".section-wrapper-blue .section-subheader { background: ".rgb_formatter($rgb_gray,-65)."; }";
 
-	echo ".section-subheader { font-family: Verdana; position: sticky; top: 50px; left: 0; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 0; } ";
-	echo ".section-subheader-rotate-ccw { transform: rotate(-5deg); }";
-	echo ".section-subheader-rotate-cw { transform: rotate(5deg); }";
+	echo ".section-subheader { font-family: Verdana; position: absolute; top: 0; left: 0; transform: rotate(-5deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 0; } ";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0 auto; font-weight: 400; text-align: left; } ";
 	echo ".section-img { position: absolute; margin: 0 0 -100px 0; bottom: 0px; right: 0; max-width: 90%; width: 300px; border-radius: 0 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); background: ".rgb_formatter($rgb_background)."; color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
 
-	echo ".footer-button { font-family: Verdana; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 50px; margin: -80px auto 40px; border: 3px solid ".rgb_formatter($rgb_background)."; border-radius: 50px; } ";
+	echo ".footer-button { font-family: Verdana;transform: rotate(-5deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 50px; margin: -80px auto 40px; border: 3px solid ".rgb_formatter($rgb_background)."; border-radius: 50px; } ";
 
 	echo "</style>";
 echo "</head>";
@@ -133,7 +129,7 @@ echo "<span class='body-spacing'></span>";
 // Disability services
 
 echo "<div class='section-wrapper section-wrapper-gray'>";
-echo "<div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Growth and compassion</div>";
+echo "<div class='section-subheader width-wrapper'>Growth and compassion</div>";
 echo "<div class='section-description width-wrapper'>";
 echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic activities, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
 echo "</div>";
@@ -150,7 +146,7 @@ echo "<span class='body-spacing'></span>";
 // Public speaking
 
 echo "<div class='section-wrapper section-wrapper-pink'>";
-echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Impactful outreach</div></div>";
+echo "<div class='width-wrapper'><div class='section-subheader width-wrapper'>Impactful outreach</div></div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
 echo "</div>";
@@ -172,7 +168,7 @@ echo "<span class='body-spacing'></span>";
 // Publishing
 
 echo "<div class='section-wrapper section-wrapper-yellow'>";
-echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Publishing and production</div></div>";
+echo "<div class='width-wrapper'><div class='section-subheader width-wrapper'>Publishing and production</div></div>";
 echo "<div class='section-description width-wrapper'>A selection of clients as well as of projects I have produced or contributed to is given below.</div>";
 echo "</div>";
 
@@ -216,7 +212,7 @@ echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<a href='mailto:info@levi.news'><div class='footer-button section-subheader-rotate-ccw width-wrapper'>Email me</div></a>";
+echo "<a href='mailto:info@levi.news'><div class='footer-button width-wrapper'>Email me</div></a>";
 
 echo "<span class='body-spacing'></span>";
 
