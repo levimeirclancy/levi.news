@@ -58,10 +58,11 @@ echo "<style>";
 	echo ".header-en { transform: rotate(-12deg);font-size: 300%; margin: color: ".rgb_formatter($rgb_dark,0,0.85)."; } ";
 	echo ".header-ja { transform: rotate(-12deg); font-size: 220%; color: ".rgb_formatter($rgb_dark,0,0.7)."; line-height: 1; } ";
 	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: ".rgb_formatter($rgb_dark,0,0.55)."; line-height: 1; } ";
+	echo ".header-img { max-width: 550px; width: 90%; border-radius: 500px;  box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; }";
 	echo ".header-bio { font-family: Courier New; font-size: 120%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
 	echo ".header-bio a { color: ".rgb_formatter($rgb_dark)."; font-weight: 700; } ";
 
-	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 10px 10px 80px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
+	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 10px 10px 80px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
 	echo ".section-wrapper a { color: ".rgb_formatter($rgb_light)."; }";
 	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,-5)."; }";
 	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
@@ -92,7 +93,7 @@ echo "<body>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='header-bio width-wrapper'><b><center>שלום<br>Hello<br>こんにちは<br>چۆنی<br><br>My name is ...</center></b></div>";
+echo "<div class='header-bio width-wrapper'><b><center>שלום<br>こんにちは<br>چۆنی<br>Hello, my name is ...</center></b></div>";
 
 echo "<span class='body-spacing'></span>";
 
@@ -102,6 +103,12 @@ echo "<div class='header-en'>Levi Meir<br>Clancy</div>";
 // echo "<div class='header-ku'>لیڤی مایر<br>کلنسی</div>";
 
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+
+// Header img
+
+echo "<img src='2025-01-15-img.jpg' class='header-img' />";
+
 echo "<span class='body-spacing'></span>";
 
 // Intro summary
@@ -163,7 +170,7 @@ echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-wrapper section-wrapper-yellow'>";
 echo "<div class='width-wrapper'><div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Publishing and production</div></div>";
-echo "<div class='section-description width-wrapper'>A selection of content I have produced or contributed to is below.</div>";
+echo "<div class='section-description width-wrapper'>A selection of clients as well as of projects I have produced or contributed to is given below.</div>";
 echo "</div>";
 
 echo "<span class='body-spacing'></span>";
