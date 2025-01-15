@@ -79,7 +79,7 @@ echo "<style>";
 	echo ".section-subheader-rotate-ccw { transform: rotate(-5deg); }";
 	echo ".section-subheader-rotate-cw { transform: rotate(5deg); }";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0 auto; font-weight: 400; text-align: left; } ";
-	echo ".section-img { position: sticky; bottom: -150px; right: 40%; max-width: 90%; width: 300px; border-radius: 0 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
+	echo ".section-img { position: absolute; margin: 0 0 -100px 0; bottom: 0px; right: 0; max-width: 90%; width: 300px; border-radius: 0 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); background: ".rgb_formatter($rgb_background)."; color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
 
