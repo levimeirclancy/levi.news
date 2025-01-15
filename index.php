@@ -93,6 +93,8 @@ echo "<div class='section-subheader width-wrapper'>Impactful speaker</div>";
 echo "<div class='section-description width-wrapper'>My public speaking ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "</div>";
 
+echo "<span class='body-spacing'></span>";
+
 echo "<a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 &rarr; TEDxDuhok</div></a>"; // 2017 Oct 10
 echo "<a href='https://www.youtube.com/watch?v=ptyGKlmVniE'><div class='link-bubble'>2021 &rarr; HARIF</div></a>"; // 2021 Mar 23
 echo "<a href='https://www.youtube.com/watch?v=BrDBsS1Sko0'><div class='link-bubble'>2019 &rarr; HARIF</div></a>"; // 
@@ -105,6 +107,8 @@ echo "<div class='section-info section-blue'>";
 echo "<div class='section-subheader width-wrapper'>Publishing credits</div>";
 echo "<div class='section-description width-wrapper'>I am...</div>";
 echo "</div>";
+
+echo "<span class='body-spacing'></span>";
 
 echo "<a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 Dec 26 &rarr; Future of Jewish</div></a>";
 echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 Dec 25 &rarr; Jewish Unpacked</div></a>";
@@ -124,11 +128,12 @@ echo "<div class='section-subheader width-wrapper'>Get to know me</div>";
 echo "<div class='section-description width-wrapper'>Send me an <a href='mailto:info@levi.news'>email</a> to be in touch. To read more about me, take a look at some press and interviews from childhood to adulthood.</div>";
 echo "</div>";
 
+echo "<span class='body-spacing'></span>";
+
 echo "<a href='https://birthrightisrael.foundation/blog/meet-photographer-and-la-birthright-israel-alum-levi-meir-clancy/'><div class='link-bubble'>2022 Jun 16 &rarr; Taglit-Birthright</div></a>";
 echo "<a href='https://forward.com/news/482748/founder-of-jewish-museum-expelled-from-iraqi-kurdistan-levi-meir-clancy/'><div class='link-bubble'>2022 Feb 20 &rarr; The Forward</div></a>";
 echo "<a href='https://forward.com/news/473198/in-iraqi-kurdistan-a-one-man-museum-celebrates-the-regions-jewish-history/'><div class='link-bubble'>2021 Jul 20 &rarr; The Forward</div></a>";
 
-echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
