@@ -31,8 +31,8 @@ echo "<style>";
 	echo ".section-orange {background: rgba(".$rgb_orange.",1); }";
 	echo ".section-blue { background: rgba(".$rgb_blue.",1); }";
 
-	echo ".section-subheader { font-family: Verdana; font-size: 200%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; max-width: 700px; margin: 50px auto; } ";
-	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; font-weight: 400; } ";
+	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 200%; display: block; transform: rotate(-5deg); font-weight: 700; line-height: 0.9; max-width: 700px; margin: -50px auto; box-shadow: -3px -3px 10px -5px rgba(30,30,30,0.3); } ";
+	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin-top: 50px; font-weight: 400; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
 
@@ -91,8 +91,8 @@ echo "<span class='body-spacing'></span>";
 // Public speaking
 
 echo "<div class='section-info section-pink'>";
-echo "<div class='section-subheader width-wrapper'>Impactful speaker</div>";
-echo "<div class='section-description width-wrapper'>My public speaking ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
+echo "<div class='section-subheader width-wrapper'>Impactful outreach</div>";
+echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "</div>";
 
 echo "<span class='body-spacing'></span>";
