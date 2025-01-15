@@ -101,7 +101,7 @@ echo "<span class='body-spacing'></span>";
 
 // Publishing
 
-echo "<div class='section-info section-gray'>";
+echo "<div class='section-info section-blue'>";
 echo "<div class='section-subheader width-wrapper'>Publishing credits</div>";
 echo "<div class='section-description width-wrapper'>I am...</div>";
 echo "</div>";
@@ -113,7 +113,7 @@ echo "<span class='body-spacing'></span>";
 
 // Coverage
 
-echo "<div class='section-info section-gray'>";
+echo "<div class='section-info section-yellow'>";
 echo "<div class='section-subheader width-wrapper'>Press</div>";
 echo "<div class='section-description width-wrapper'>Levi Meir has been featured in media coverage from childhood to adulthood, highlighting his work, advocacy, and achievements.</div>";
 echo "</div>";
@@ -132,7 +132,7 @@ echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-info section-blue'>";
+echo "<div class='section-info section-gray'>";
 echo "<div class='section-subheader width-wrapper'>Get to know me</div>";
 echo "<div class='section-description width-wrapper'>Send me an <a href='mailto:info@levi.news'>email</a> to be in touch.</div>";
 echo "</div>";
