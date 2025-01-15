@@ -63,16 +63,16 @@ echo "<style>";
 
 	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 10px 10px 80px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
 	echo ".section-wrapper a { color: ".rgb_formatter($rgb_light)."; }";
-	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,0)."; }";
+	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,-5)."; }";
 	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
-	echo ".section-wrapper-pink { background: ".rgb_formatter($rgb_gray)."; }";
+	echo ".section-wrapper-pink { background: ".rgb_formatter($rgb_gray,-15)."; }";
 	echo ".section-wrapper-pink .section-subheader { background: ".rgb_formatter($rgb_gray,-20)."; }";
-	echo ".section-wrapper-yellow {background: ".rgb_formatter($rgb_gray)."; }";
-	echo ".section-wrapper-yellow .section-subheader { background: ".rgb_formatter($rgb_blue,-20)."; }";
-	echo ".section-wrapper-orange {background: ".rgb_formatter($rgb_gray)."; }";
-	echo ".section-wrapper-orange .section-subheader { background: ".rgb_formatter($rgb_blue,-20)."; }";
-	echo ".section-wrapper-blue { background: ".rgb_formatter($rgb_gray)."; }";
-	echo ".section-wrapper-blue .section-subheader { background: ".rgb_formatter($rgb_blue,-20)."; }";
+	echo ".section-wrapper-yellow {background: ".rgb_formatter($rgb_gray,-30)."; }";
+	echo ".section-wrapper-yellow .section-subheader { background: ".rgb_formatter($rgb_gray,-35)."; }";
+	echo ".section-wrapper-orange {background: ".rgb_formatter($rgb_gray,-45)."; }";
+	echo ".section-wrapper-orange .section-subheader { background: ".rgb_formatter($rgb_gray,-50)."; }";
+	echo ".section-wrapper-blue { background: ".rgb_formatter($rgb_gray-60)."; }";
+	echo ".section-wrapper-blue .section-subheader { background: ".rgb_formatter($rgb_gray,-65)."; }";
 
 	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -80px auto 40px; border: 3px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 0; } ";
 	echo ".section-subheader-rotate-ccw { transform: rotate(-5deg); }";
