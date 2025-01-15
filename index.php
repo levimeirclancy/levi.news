@@ -52,7 +52,7 @@ echo "<style>";
 
 	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 50px 10px; margin: 30px 0 50px 0; box-sizing: border-box; color: #f0f0f0; box-shadow: 0 -10px 20px -15px rgba(30,30,30,0.3); border-top: 2px solid #f0f0f0; } ";
 	echo ".section-wrapper-gray { background: rgba(".rgb_formatter($rgb_gray).",1); }";
-	echo ".section-wrapper-gray .section-subheader { background: rgba(".rgb_formatter($rgb_gray,-20).",1); }";
+	echo ".section-wrapper-gray .section-subheader { background: rgba(".rgb_formatter($rgb_gray,0).",1); }";
 	echo ".section-wrapper-pink { background: rgba(".rgb_formatter($rgb_pink).",1); }";
 	echo ".section-wrapper-pint .section-subheader { background: rgba(".rgb_formatter($rgb_pink,-20).",1); }";
 	echo ".section-wrapper-yellow {background: rgba(".rgb_formatter($rgb_yellow).",1); }";
@@ -64,7 +64,7 @@ echo "<style>";
 
 	echo ".section-subheader { font-family: Verdana; background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -90px auto 50px;; } ";
 	echo ".section-subheader-rotate-ccw { transform: rotate(-5deg); }";
-	echo ".section-subheader-rotate-cw { transform: rotate(0deg); }";
+	echo ".section-subheader-rotate-cw { transform: rotate(5deg); }";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0 auto; font-weight: 400; text-align: left; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
@@ -124,7 +124,7 @@ echo "<span class='body-spacing'></span>";
 // Public speaking
 
 echo "<div class='section-wrapper section-wrapper-pink'>";
-echo "<div class='section-subheader section-subheader-rotate-cw width-wrapper'>Impactful outreach</div>";
+echo "<div class='section-subheader section-subheader-rotate-ccw width-wrapper'>Impactful outreach</div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "</div>";
 
@@ -160,7 +160,7 @@ echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<div class='section-wrapper section-wrapper-gray'>";
+echo "<div class='section-wrapper section-wrapper-gray'><br>";
 echo "<div class='section-subheader width-wrapper'>Get to know me</div>";
 echo "<div class='section-description width-wrapper'>Send me an <a href='mailto:info@levi.news'>email</a> to be in touch. To read more about me, take a look at some press and interviews from childhood to adulthood.</div>";
 echo "</div>";
