@@ -163,7 +163,7 @@ echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
-echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-left' /></div>";
+echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-right' /></div>";
 echo "</div>";
 
 // Two extra for image
@@ -198,12 +198,14 @@ echo "<span class='body-spacing'></span>";
 
 echo "<a href=''><div class='link-bubble'>2024 &rarr; Roy Dahan</div></a>"; 
 echo "<a href=''><div class='link-bubble'>2024 &rarr; ICON SV</div></a>"; 
+
+echo '<iframe width="700" height="394" src="https://www.youtube.com/embed/WUeJCvBMSOA?si=39xV0wJHiY4Fe_uI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+
 echo "<a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 &rarr; Future of Jewish</div></a>"; // 2024 Dec 26
 echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 &rarr; Jewish Unpacked</div></a>"; // 2024 Dec 25
 echo "<a href=''><div class='link-bubble'>2020 &rarr; U Penn Asian Art Gallery</div></a>"; 
 echo "<a href=''><div class='link-bubble'>2019 &rarr; 100 Women Gallery</div></a>"; 
 echo "<a href=''><div class='link-bubble'>2018 &rarr; UNIDO</div></a>";
-// YOUTUBE REEL
 echo "<a href=''><div class='link-bubble'>2019 &rarr; Kurdistan Region President</div></a>"; 
 echo "<a href=''><div class='link-bubble'>2018 &rarr; State of Israel MFA</div></a>"; 
 
