@@ -69,7 +69,7 @@ echo "<style>";
 	echo ".header-bio { font-family: Courier New; font-size: 130%; line-height: 1.8; display: block; font-weight: 400; } ";
 	echo ".header-bio a { color: ".rgb_formatter($rgb_dark)."; font-weight: 700; } ";
 
-	echo ".section-wrapper { display: block; width: 100%; padding: 100px 10px 150px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
+	echo ".section-wrapper { display: block; width: 100%; padding: 100px 10px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
 	echo ".section-wrapper a { color: ".rgb_formatter($rgb_light)."; }";
 	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,-5)."; }";
 	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
@@ -140,6 +140,7 @@ echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>
 echo "<div class='section-description width-wrapper'>";
 	echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic activities, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
 	echo "</div>";
+echo "<span class='body-spacing'></span>";
 echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-left' /></div>";
 echo "</div>";
 
@@ -160,6 +161,7 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='section-wrapper section-wrapper-pink text-align-center'>";
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Impactful outreach</div></div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
+echo "<span class='body-spacing'></span>";
 echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-right' /></div>";
 echo "</div>";
 
@@ -186,6 +188,7 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='section-wrapper section-wrapper-yellow text-align-center'>";
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Publishing and production</div></div>";
 echo "<div class='section-description width-wrapper'>A selection of clients as well as of projects I have produced or contributed to is given below.</div>";
+echo "<span class='body-spacing'></span>";
 echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-center' /></div>";
 echo "</div>";
 
