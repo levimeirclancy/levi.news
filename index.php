@@ -108,15 +108,10 @@ echo "<div class='header-en'>Levi Meir<br>Clancy</div>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
 
 // Header img
 
 echo "<img src='2025-01-15-img.jpg' class='splash-img' />";
-
-echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
@@ -155,7 +150,11 @@ echo "</div>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
+echo "<span class='body-spacing'></span>";
 echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-left' /></div>";
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 /// echo "<img src='2025-01-15-img.jpg' class='splash-img' />";
 
