@@ -206,7 +206,6 @@ echo "</div>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
 
 echo "<a href=''><div class='link-bubble'>2024 &rarr; Roy Dahan</div></a>"; 
 echo "<a href=''><div class='link-bubble'>2024 &rarr; ICON SV</div></a>"; 
