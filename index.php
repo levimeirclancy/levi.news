@@ -114,7 +114,7 @@ echo "<span class='body-spacing'></span>";
 
 // Intro summary
 
-echo "<div class='header-bio width-wrapper'>I am a support mentor, a marketing/comms producer, and an all-around hard working guy. Check out the links below for my currently active projects. <a href='mailto:info@levi.news'>Email me</a> to be in touch.</div>";
+echo "<div class='header-bio width-wrapper text-align-left'>I am a support mentor, a marketing/comms producer, and an all-around hard working guy. Check out the links below for my currently active projects. <a href='mailto:info@levi.news'>Email me</a> to be in touch.</div>";
 
 echo "<span class='body-spacing'></span>";
 
@@ -133,7 +133,7 @@ echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-wrapper section-wrapper-gray'>";
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Growth and compassion</div></div>";
-echo "<div class='section-description'>";
+echo "<div class='section-description width-wrapper'>";
 	echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic activities, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
 	echo "</div>";
 echo "</div>";
