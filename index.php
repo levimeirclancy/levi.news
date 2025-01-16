@@ -137,7 +137,7 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='section-wrapper section-wrapper-gray text-align-center'>";
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Growth and compassion</div></div>";
 echo "<div class='section-description width-wrapper'>";
-	echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic activities, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
+	echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic activities, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse, person-centered <q>urban village</q> is founded on Jewish values.";
 	echo "</div>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
@@ -174,7 +174,10 @@ echo "<span class='body-spacing'></span>";
 
 echo "<a href=''><div class='link-bubble'>2025 &rarr; Qesher</div></a>"; // 
 echo "<a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 &rarr; TEDxDuhok</div></a>"; // 2017 Oct 10
-echo "<div class='link-bubble'>2021 &rarr; Book Café Exhibition</div>"; // 
+echo "<div class='link-bubble'>2021 &rarr; Book Café Exhibition</div>"; //
+
+// TALK
+
 echo "<a href='https://www.youtube.com/watch?v=ptyGKlmVniE'><div class='link-bubble'>2021 &rarr; HARIF</div></a>"; // 2021 Mar 23
 echo "<div class='link-bubble'>2020 &rarr; Mr. Erbil Exhibition</div>"; // 
 echo "<a href='https://www.youtube.com/watch?v=BrDBsS1Sko0'><div class='link-bubble'>2019 &rarr; AMP Conf</div></a>"; // 
@@ -189,15 +192,7 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='section-wrapper section-wrapper-yellow text-align-center'>";
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Publishing and production</div></div>";
 echo "<div class='section-description width-wrapper'>A selection of clients as well as of projects I have produced or contributed to is given below.</div>";
-echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
-echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-right' /></div>";
 echo "</div>";
-
-// Two extra for image
-echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
-
 
 echo "<span class='body-spacing'></span>";
 
@@ -207,7 +202,8 @@ echo "<a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-dr
 echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 &rarr; Jewish Unpacked</div></a>"; // 2024 Dec 25
 echo "<a href=''><div class='link-bubble'>2020 &rarr; U Penn Asian Art Gallery</div></a>"; 
 echo "<a href=''><div class='link-bubble'>2019 &rarr; 100 Women Gallery</div></a>"; 
-echo "<a href=''><div class='link-bubble'>2018 &rarr; UNIDO</div></a>"; 
+echo "<a href=''><div class='link-bubble'>2018 &rarr; UNIDO</div></a>";
+// YOUTUBE REEL
 echo "<a href=''><div class='link-bubble'>2019 &rarr; Kurdistan Region President</div></a>"; 
 echo "<a href=''><div class='link-bubble'>2018 &rarr; State of Israel MFA</div></a>"; 
 
