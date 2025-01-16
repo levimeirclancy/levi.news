@@ -57,7 +57,6 @@ echo "<style>";
 
 	echo ".position-right { right: 0; } ";
 	echo ".position-left { left: 0} ";
-	echo ".position-center { margin-left: auto; margin-right: auto; } ";
 
 	echo ".header-he, .header-en, .header-ja, .header-ku {  margin: 30px; font-family: Courier New; font-weight: 700; line-height: 0.9; display: inline-block;  } ";
 	echo ".header-he { transform: rotate(-12deg); font-size: 260%; color: ".rgb_formatter($rgb_dark).";} ";
@@ -82,7 +81,7 @@ echo "<style>";
 
 	echo ".section-subheader { position: absolute; top: -150px; font-family: Verdana; transform: rotate(-6deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 4px; } ";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0px auto; font-weight: 400; text-align: left; } ";
-	echo ".section-img { position: absolute; display:block; bottom: -200px; max-width: 90%; width: 225px; border-radius: 500px 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
+	echo ".section-img { position: absolute; display:block; bottom: -210px; max-width: 90%; width: 225px; border-radius: 500px 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 110%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); background: ".rgb_formatter($rgb_background)."; color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; } ";
 
@@ -141,7 +140,8 @@ echo "<div class='section-description width-wrapper'>";
 	echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic activities, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
 	echo "</div>";
 echo "<span class='body-spacing'></span>";
-echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-left' /></div>";
+echo "<span class='body-spacing'></span>";
+echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-right' /></div>";
 echo "</div>";
 
 // Two extra for image
@@ -162,7 +162,8 @@ echo "<div class='section-wrapper section-wrapper-pink text-align-center'>";
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Impactful outreach</div></div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "<span class='body-spacing'></span>";
-echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-right' /></div>";
+echo "<span class='body-spacing'></span>";
+echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-left' /></div>";
 echo "</div>";
 
 // Two extra for image
@@ -189,7 +190,8 @@ echo "<div class='section-wrapper section-wrapper-yellow text-align-center'>";
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Publishing and production</div></div>";
 echo "<div class='section-description width-wrapper'>A selection of clients as well as of projects I have produced or contributed to is given below.</div>";
 echo "<span class='body-spacing'></span>";
-echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-center' /></div>";
+echo "<span class='body-spacing'></span>";
+echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-right' /></div>";
 echo "</div>";
 
 // Two extra for image
