@@ -140,7 +140,7 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='section-wrapper section-wrapper-gray text-align-center'>";
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Growth and compassion</div></div>";
 echo "<div class='section-description width-wrapper'>";
-	echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic activities, personalized coaching, and creative experiences. Our neurodiverse and person-centered <q>urban village</q> is inspired by Kibbutz Kishorit and rooted in Jewish values.";
+	echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic activities, personalized coaching, and creative experiences. Our neurodiverse and person-centered <q>urban village</q> is inspired by Kibbutz Kishorit and is rooted in Jewish values.";
 	echo "</div>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
