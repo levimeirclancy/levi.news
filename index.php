@@ -149,7 +149,7 @@ echo "<span class='body-spacing'></span>";
 // Public speaking
 
 echo "<div class='section-wrapper section-wrapper-pink text-align-center'>";
-echo "<div class='width-wrapper'><div class='section-subheader width-wrapper'>Impactful outreach</div></div>";
+echo "<div class='width-wrapper text-align-left'><div class='section-subheader width-wrapper'>Impactful outreach</div></div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 echo "<div class='width-wrapper text-align-right'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
 echo "</div>";
@@ -175,7 +175,7 @@ echo "<span class='body-spacing'></span>";
 // Publishing
 
 echo "<div class='section-wrapper section-wrapper-yellow  text-align-center'>";
-echo "<div class='width-wrapper'><div class='section-subheader width-wrapper'>Publishing and production</div></div>";
+echo "<div class='width-wrapper text-align-left'><div class='section-subheader width-wrapper'>Publishing and production</div></div>";
 echo "<div class='section-description width-wrapper'>A selection of clients as well as of projects I have produced or contributed to is given below.</div>";
 echo "</div>";
 
