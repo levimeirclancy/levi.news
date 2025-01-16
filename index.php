@@ -131,12 +131,17 @@ echo "<span class='body-spacing'></span>";
 
 // Disability services
 
-echo "<div class='section-wrapper section-wrapper-gray'>";
+echo "<div class='section-wrapper section-wrapper-gray text-align-center'>";
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Growth and compassion</div></div>";
 echo "<div class='section-description width-wrapper'>";
 	echo "As a <b>support mentor</b>, I empower adults with cognitive disabilities to build independence and community through strategic activities, personalized coaching, and creative experiences. Inspired by Kibbutz Kishorit, our neurodiverse <q>urban village</q> fosters growth and connection, blending innovative practices with Jewish values.";
 	echo "</div>";
+echo "<div class='width-wrapper text-align-left'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
 echo "</div>";
+
+// Two extra for image
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 echo "<span class='body-spacing'></span>";
 
@@ -206,7 +211,7 @@ echo "<span class='body-spacing'></span>";
 
 // echo " <a href='___'>___ &rarr; ___</div></a>";
 
-echo "<div class='section-wrapper section-wrapper-orange  text-align-center'>";
+echo "<div class='section-wrapper section-wrapper-orange text-align-center'>";
 
 echo "<span class='body-spacing'></span>";
 
