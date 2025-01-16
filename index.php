@@ -108,10 +108,15 @@ echo "<div class='header-en'>Levi Meir<br>Clancy</div>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 // Header img
 
 echo "<img src='2025-01-15-img.jpg' class='splash-img' />";
+
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
