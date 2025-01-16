@@ -199,7 +199,7 @@ echo "<span class='body-spacing'></span>";
 echo "<a href=''><div class='link-bubble'>2024 &rarr; Roy Dahan</div></a>"; 
 echo "<a href=''><div class='link-bubble'>2024 &rarr; ICON SV</div></a>"; 
 
-echo '<iframe width="700" height="394" src="https://www.youtube.com/embed/WUeJCvBMSOA?si=39xV0wJHiY4Fe_uI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+echo '<iframe class="width-wrapper" width="700" height="394" src="https://www.youtube.com/embed/WUeJCvBMSOA?si=39xV0wJHiY4Fe_uI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
 
 echo "<a href='https://www.futureofjewish.com/p/the-little-known-story-of-the-druze'><div class='link-bubble'>2024 &rarr; Future of Jewish</div></a>"; // 2024 Dec 26
 echo "<a href='https://jewishunpacked.com/shine-a-light-on-antisemitism-this-hanukkah-jewish-survival-depends-on-it/'><div class='link-bubble'>2024 &rarr; Jewish Unpacked</div></a>"; // 2024 Dec 25
