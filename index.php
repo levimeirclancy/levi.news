@@ -126,6 +126,7 @@ echo "<a href='https://levi.pictures'><div class='link-bubble'>Photography and v
 echo "<a href='https://ziolicio.us'><div class='link-bubble'>Identity building &rarr; ziolicio.us</div></a>";
 echo "<a href='https://conversationpieces.rsvp'><div class='link-bubble'>Educational exhibition &rarr; conversationpieces.rsvp</div></a>";
 echo "<a href='https://blogs.timesofisrael.com/author/levi-clancy/'><div class='link-bubble'>Blog &rarr; Times of Israel</div></a>";
+echo "<a href='http://linkedin.com/in/levimeirclancy/'><div class='link-bubble'>LinkedIn</div></a>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
@@ -148,9 +149,7 @@ echo "</div>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<span class='body-spacing'></span>";
-
-echo "<a href='http://linkedin.com/in/levimeirclancy/'><div class='link-bubble'>LinkedIn</div></a>";
+echo "<img src='2025-01-15-img.jpg'  class='width-wrapper' />";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
