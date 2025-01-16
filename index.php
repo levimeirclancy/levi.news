@@ -65,7 +65,7 @@ echo "<style>";
 	echo ".header-bio { font-family: Courier New; font-size: 130%; line-height: 1.8; display: block; font-weight: 400; } ";
 	echo ".header-bio a { color: ".rgb_formatter($rgb_dark)."; font-weight: 700; } ";
 
-	echo ".section-wrapper { display: block; width: 100%; padding: 100px 10px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
+	echo ".section-wrapper { display: block; width: 100%; padding: 50px 10px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
 	echo ".section-wrapper a { color: ".rgb_formatter($rgb_light)."; }";
 	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,-5)."; }";
 	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
@@ -78,7 +78,7 @@ echo "<style>";
 
 	echo ".section-subheader { position: relative; top: -150px; font-family: Verdana; transform: rotate(-6deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 4px; } ";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0px auto; font-weight: 400; text-align: left; } ";
-	echo ".section-img { position: relative; bottom: -200px; margin: 0; max-width: 90%; width: 250px; border-radius: 500px 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
+	echo ".section-img { position: absolute; bottom: -200px; margin: 0; max-width: 90%; width: 250px; border-radius: 500px 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 110%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); background: ".rgb_formatter($rgb_background)."; color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; } ";
 
@@ -152,8 +152,6 @@ echo "<div class='section-wrapper section-wrapper-pink text-align-center'>";
 
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Impactful outreach</div></div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
-
-// Two extra for image
 echo "<div class='width-wrapper text-align-right'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
 
 echo "</div>";
