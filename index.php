@@ -50,7 +50,10 @@ echo "<style>";
 	echo "body { font-family: Courier New; background: ".rgb_formatter($rgb_background)."; color: ".rgb_formatter($rgb_dark)."; line-height: 1.5; margin: 0; padding: 0; text-align: center; } ";
 
 	echo ".body-spacing { display: block; height: 50px; } ";
-	echo ".width-wrapper { display: block; margin: 0 auto; max-width: 700px; text-align: left; position: relative; } ";
+	echo ".width-wrapper { display: block; margin: 0 auto; max-width: 700px; position: relative; } ";
+	echo ".text-align-right { text-align: right; } ";
+	echo ".text-align-left { text-align: left; } ";
+	echo ".text-align-center { text-align: center; } ";
 
 	echo ".header-he, .header-en, .header-ja, .header-ku {  margin: 30px; font-family: Courier New; font-weight: 700; line-height: 0.9; display: inline-block;  } ";
 	echo ".header-he { transform: rotate(-12deg); font-size: 260%; color: ".rgb_formatter($rgb_dark).";} ";
@@ -59,10 +62,10 @@ echo "<style>";
 	echo ".header-ja { transform: rotate(-12deg); font-size: 220%; color: ".rgb_formatter($rgb_dark,0,0.7)."; line-height: 1; } ";
 	echo ".header-ku { transform: rotate(9deg);font-size: 250%; color: ".rgb_formatter($rgb_dark,0,0.55)."; line-height: 1; } ";
 	echo ".header-img { max-width: 550px; width: 90%; border-radius: 500px;  box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; }";
-	echo ".header-bio { font-family: Courier New; font-size: 140%; line-height: 1.8; display: block; font-weight: 400; text-align: left; } ";
+	echo ".header-bio { font-family: Courier New; font-size: 140%; line-height: 1.8; display: block; font-weight: 400; } ";
 	echo ".header-bio a { color: ".rgb_formatter($rgb_dark)."; font-weight: 700; } ";
 
-	echo ".section-wrapper { display: block; text-align: center; width: 100%; padding: 10px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
+	echo ".section-wrapper { display: block; width: 100%; padding: 10px; margin: 0; box-sizing: border-box; color: ".rgb_formatter($rgb_light)."; box-shadow: 0 -10px 20px -15px ".rgb_formatter($rgb_dark,0.3)."; border-top: 2px solid ".rgb_formatter($rgb_background)."; } ";
 	echo ".section-wrapper a { color: ".rgb_formatter($rgb_light)."; }";
 	echo ".section-wrapper-gray { background: ".rgb_formatter($rgb_gray,-5)."; }";
 	echo ".section-wrapper-gray .section-subheader { background: ".rgb_formatter($rgb_gray,0)."; }";
@@ -73,11 +76,11 @@ echo "<style>";
 	echo ".section-wrapper-orange {background: ".rgb_formatter($rgb_gray,-45)."; }";
 	echo ".section-wrapper-orange .section-subheader { background: ".rgb_formatter($rgb_gray,-50)."; }";
 
-	echo ".section-subheader { font-family: Verdana; transform: rotate(-5deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -50px 0 0 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 0; } ";
+	echo ".section-subheader { font-family: Verdana; transform: rotate(-5deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -50px 0 0 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 4px; } ";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 80px auto; font-weight: 400; text-align: left; } ";
-	echo ".section-img {  margin: 0 0 -150px 0; max-width: 90%; width: 250px; border-radius: 0 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
+	echo ".section-img {  margin: 0 0 -150px 0; max-width: 90%; width: 250px; border-radius: 4px 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
 
-	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); background: ".rgb_formatter($rgb_background)."; color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; text-align: center; } ";
+	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); background: ".rgb_formatter($rgb_background)."; color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; } ";
 
 	echo ".footer-button { font-family: Verdana;transform: rotate(-5deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 50px; margin: -80px auto 40px; border: 3px solid ".rgb_formatter($rgb_background)."; border-radius: 50px; } ";
 
@@ -145,10 +148,10 @@ echo "<span class='body-spacing'></span>";
 
 // Public speaking
 
-echo "<div class='section-wrapper section-wrapper-pink'>";
+echo "<div class='section-wrapper section-wrapper-pink text-align-center'>";
 echo "<div class='width-wrapper'><div class='section-subheader width-wrapper'>Impactful outreach</div></div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
-echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
+echo "<div class='width-wrapper text-align-right'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
 echo "</div>";
 
 // Two extra for image
@@ -171,7 +174,7 @@ echo "<span class='body-spacing'></span>";
 
 // Publishing
 
-echo "<div class='section-wrapper section-wrapper-yellow'>";
+echo "<div class='section-wrapper section-wrapper-yellow  text-align-center'>";
 echo "<div class='width-wrapper'><div class='section-subheader width-wrapper'>Publishing and production</div></div>";
 echo "<div class='section-description width-wrapper'>A selection of clients as well as of projects I have produced or contributed to is given below.</div>";
 echo "</div>";
@@ -197,7 +200,7 @@ echo "<span class='body-spacing'></span>";
 
 // echo " <a href='___'>___ &rarr; ___</div></a>";
 
-echo "<div class='section-wrapper section-wrapper-orange'>";
+echo "<div class='section-wrapper section-wrapper-orange  text-align-center'>";
 
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
