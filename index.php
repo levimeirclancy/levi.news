@@ -76,7 +76,7 @@ echo "<style>";
 	echo ".section-wrapper-orange {background: ".rgb_formatter($rgb_gray,-45)."; }";
 	echo ".section-wrapper-orange .section-subheader { background: ".rgb_formatter($rgb_gray,-50)."; }";
 
-	echo ".section-subheader { position: absolute; left: 0; top: -150px; font-family: Verdana; transform: rotate(-7deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 4px; } ";
+	echo ".section-subheader { position: absolute; left: 0; top: -150px; font-family: Verdana; transform: rotate(-6deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 4px; } ";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0px auto; font-weight: 400; text-align: left; } ";
 	echo ".section-img {   transform: rotate(6deg); position: absolute; bottom: -200px; right: 0; margin: 0; max-width: 90%; width: 250px; border-radius: 4px 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
 
@@ -149,9 +149,15 @@ echo "<span class='body-spacing'></span>";
 // Public speaking
 
 echo "<div class='section-wrapper section-wrapper-pink text-align-center'>";
+
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Impactful outreach</div></div>";
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
+
+// Two extra for image
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 echo "<div class='width-wrapper text-align-right'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
+
 echo "</div>";
 
 // Two extra for image
