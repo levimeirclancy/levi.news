@@ -72,7 +72,7 @@ echo "<style>";
 	echo ".section-wrapper-yellow .section-subheader { background: ".rgb_formatter($rgb_gray,-35)."; }";
 	echo ".section-wrapper-orange {background: ".rgb_formatter($rgb_gray,-45)."; }";
 	echo ".section-wrapper-orange .section-subheader { background: ".rgb_formatter($rgb_gray,-50)."; }";
-80
+
 	echo ".section-subheader { font-family: Verdana; transform: rotate(-5deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: -50px 0 0 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 0; } ";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 80px auto; font-weight: 400; text-align: left; } ";
 	echo ".section-img {  margin: 0 0 -100px 0; max-width: 90%; width: 300px; border-radius: 0 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
