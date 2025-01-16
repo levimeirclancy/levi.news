@@ -182,7 +182,9 @@ echo "<a href=''><div class='link-bubble'>2025 &rarr; Qesher</div></a>"; //
 echo "<a href='https://www.youtube.com/watch?v=n050dgtyOck'><div class='link-bubble'>2017 &rarr; TEDxDuhok</div></a>"; // 2017 Oct 10
 echo "<div class='link-bubble'>2021 &rarr; Book Café Exhibition</div>"; //
 
-// TALK
+echo "<span class='body-spacing'></span>";
+echo '<iframe class="width-wrapper" width="700" height="394" src="https://www.youtube.com/embed/n050dgtyOck?si=H0CfehQI-sClFNOf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+echo "<span class='body-spacing'></span>";
 
 echo "<a href='https://www.youtube.com/watch?v=ptyGKlmVniE'><div class='link-bubble'>2021 &rarr; HARIF</div></a>"; // 2021 Mar 23
 echo "<div class='link-bubble'>2020 &rarr; Mr. Erbil Exhibition</div>"; // 
