@@ -50,7 +50,7 @@ echo "<style>";
 	echo "body { font-family: Courier New; background: ".rgb_formatter($rgb_background)."; color: ".rgb_formatter($rgb_dark)."; line-height: 1.5; margin: 0; padding: 0; text-align: center; } ";
 
 	echo ".body-spacing { display: block; height: 50px; } ";
-	echo ".width-wrapper { display: block; margin-left: auto; margin-right: auto; width: 90%; max-width: 700px; position: relative; } ";
+	echo ".width-wrapper { display: block; margin-left: auto; margin-right: auto; width: 90%; max-width: 700px; } ";
 	echo ".text-align-right { text-align: right; } ";
 	echo ".text-align-left { text-align: left; } ";
 	echo ".text-align-center { text-align: center; } ";
