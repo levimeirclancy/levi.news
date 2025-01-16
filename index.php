@@ -154,9 +154,6 @@ echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>
 echo "<div class='section-description width-wrapper'>My <b>public speaking</b> ranges from walking tours to large auditoriums, with experience including TEDxDuhok, AMP Conf, GSMA Mobile 360, Qesher, and interviews on radio, podcasts, and television.</div>";
 
 // Two extra for image
-echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
-
 echo "<div class='width-wrapper text-align-right'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
 
 echo "</div>";
