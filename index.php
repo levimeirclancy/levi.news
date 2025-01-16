@@ -117,7 +117,7 @@ echo "<span class='body-spacing'></span>";
 
 // Intro summary
 
-echo "<div class='header-bio width-wrapper text-align-left'>I am a support mentor, a marketing/comms producer, and an all-around hard working guy. Check out my currently active projects and <a href='mailto:info@levi.news'>email me</a> to be in touch.</div>";
+echo "<div class='header-bio width-wrapper text-align-left'>I am a support mentor, a marketing/comms producer, and an all-around hard working guy. Check out my currently active projects, and <a href='mailto:info@levi.news'>email me</a> to be in touch.</div>";
 
 echo "<span class='body-spacing'></span>";
 
