@@ -203,12 +203,9 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='section-wrapper section-wrapper-orange  text-align-center'>";
 
 echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
-echo "<span class='body-spacing'></span>";
 
 echo "<div class='section-description width-wrapper'>Check out these mentions/interviews to learn more about my advocacy, starting from when I was an <q>early college</q> kid.</div>";
 
-echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
 echo "<a href='https://birthrightisrael.foundation/blog/meet-photographer-and-la-birthright-israel-alum-levi-meir-clancy/'><div class='link-bubble'>2022 Jun 16 &rarr; Taglit-Birthright</div></a>";
@@ -221,6 +218,8 @@ echo "<span class='body-spacing'></span>";
 
 echo "<a href='mailto:info@levi.news'><div class='footer-button width-wrapper'>Email me</div></a>";
 
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
 echo "</div>";
