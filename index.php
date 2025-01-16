@@ -50,7 +50,7 @@ echo "<style>";
 	echo "body { font-family: Courier New; background: ".rgb_formatter($rgb_background)."; color: ".rgb_formatter($rgb_dark)."; line-height: 1.5; margin: 0; padding: 0; text-align: center; } ";
 
 	echo ".body-spacing { display: block; height: 50px; } ";
-	echo ".width-wrapper { display: block; margin-left: auto; margin-right: auto; max-width: 700px; position: relative; } ";
+	echo ".width-wrapper { display: block; margin-left: auto; margin-right: auto; width: 90%; max-width: 700px; position: relative; } ";
 	echo ".text-align-right { text-align: right; } ";
 	echo ".text-align-left { text-align: left; } ";
 	echo ".text-align-center { text-align: center; } ";
@@ -78,7 +78,7 @@ echo "<style>";
 
 	echo ".section-subheader { position: absolute; left: 0; top: -150px; font-family: Verdana; transform: rotate(-6deg); background: inherit; font-size: 180%; display: inline-block; font-weight: 700; line-height: 0.9; padding: 30px 40px; margin: 0; border: 2px solid ".rgb_formatter($rgb_background)."; border-radius: 50px 50px 50px 4px; } ";
 	echo ".section-description { font-family: Verdana; font-size: 120%; display: block; margin: 0px auto; font-weight: 400; text-align: left; } ";
-	echo ".section-img { transform: rotate(6deg); position: absolute; bottom: -200px; margin: 0; max-width: 90%; width: 250px; border-radius: 500px 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
+	echo ".section-img { position: absolute; bottom: -200px; margin: 0; max-width: 90%; width: 250px; border-radius: 500px 500px 500px 500px; border: 3px solid ".rgb_formatter($rgb_background)."; } ";
 
 	echo ".link-bubble { font-family: Courier New; text-tranform: uppercase; font-size: 100%; font-weight: 700; border-radius: 25px; border: 2px solid rgba(50,50,50,1); background: ".rgb_formatter($rgb_background)."; color: rgba(50,50,50,0.9); padding: 8px 35px; margin: 15px; display: inline-block; } ";
 
@@ -156,6 +156,7 @@ echo "<div class='section-description width-wrapper'>My <b>public speaking</b> r
 // Two extra for image
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
+
 echo "<div class='width-wrapper text-align-right'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
 
 echo "</div>";
@@ -187,6 +188,7 @@ echo "<div class='section-description width-wrapper'>A selection of clients as w
 // Two extra for image
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
+
 echo "<div class='width-wrapper text-align-left'><img src='2025-01-15-img.jpg' class='section-img' /></div>";
 
 echo "</div>";
