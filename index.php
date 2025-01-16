@@ -147,19 +147,18 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-right' /></div>";
 echo "</div>";
 
-// Two extra for image
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-echo "<span class='body-spacing'></span>";
 echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-left' /></div>";
+
+echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
-/// echo "<img src='2025-01-15-img.jpg' class='splash-img' />";
-
-echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
@@ -199,8 +198,14 @@ echo "<span class='body-spacing'></span>";
 echo "<div class='section-wrapper section-wrapper-yellow text-align-center'>";
 echo "<div class='width-wrapper text-align-left'><div class='section-subheader'>Publishing and production</div></div>";
 echo "<div class='section-description width-wrapper'>A selection of clients as well as of projects I have produced or contributed to is given below.</div>";
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+echo "<div class='width-wrapper'><img src='2025-01-15-img.jpg' class='section-img position-right' /></div>";
 echo "</div>";
 
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
+echo "<span class='body-spacing'></span>";
 echo "<span class='body-spacing'></span>";
 
 echo "<a href=''><div class='link-bubble'>2024 &rarr; Roy Dahan</div></a>"; 
