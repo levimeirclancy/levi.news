@@ -124,8 +124,8 @@ echo "<span class='body-spacing'></span>";
 
 // echo "<a href='https://levi.news'><div class='link-bubble'>About &rarr; levi.news</div></a>";
 echo "<a href='https://levi.pictures'><div class='link-bubble'>Photography and videography &rarr; levi.pictures</div></a>";
-echo "<a href='https://ziolicio.us'><div class='link-bubble'>Identity building &rarr; ziolicio.us</div></a>";
-echo "<a href='https://conversationpieces.rsvp'><div class='link-bubble'>Educational exhibition &rarr; conversationpieces.rsvp</div></a>";
+echo "<a href='https://ziolicio.us'><div class='link-bubble'>Positive news &rarr; ziolicio.us</div></a>";
+echo "<a href='https://conversationpieces.rsvp'><div class='link-bubble'>Identity building &rarr; conversationpieces.rsvp</div></a>";
 echo "<a href='https://blogs.timesofisrael.com/author/levi-clancy/'><div class='link-bubble'>Blog &rarr; Times of Israel</div></a>";
 echo "<a href='http://linkedin.com/in/levimeirclancy/'><div class='link-bubble'>LinkedIn</div></a>";
 
